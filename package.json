@@ -1,0 +1,24 @@
+{
+  "name": "psico-uba-data",
+  "version": "0.1.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "ts-node src/cli.ts",
+    "fetch:2025-2": "ts-node src/cli.ts --term 2025-2"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0",
+    "iconv-lite": "0.6.3",
+    "node-fetch": "2.7.0"
+  },
+  "devDependencies": {
+    "@types/cheerio": "0.22.35",
+    "@types/node": "20.14.12",
+    "@types/node-fetch": "2.6.12",
+    "typescript": "5.5.4",
+    "ts-node": "10.9.2"
+  }
+}
+

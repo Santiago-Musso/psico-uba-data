@@ -1,0 +1,1466 @@
+[
+  {
+    "id": "PS-10048",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10048,
+    "materiaName": "Análisis y Modificación de la Conducta",
+    "searchName": "analisis y modificacion de la conducta"
+  },
+  {
+    "id": "TE-0178",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 178,
+    "materiaName": "Anatomía",
+    "searchName": "anatomia"
+  },
+  {
+    "id": "LM-10009",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10009,
+    "materiaName": "Antropología de la Música",
+    "searchName": "antropologia de la musica"
+  },
+  {
+    "id": "LM-10001",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10001,
+    "materiaName": "Audioperceptiva Aplicada I",
+    "searchName": "audioperceptiva aplicada i"
+  },
+  {
+    "id": "LM-10006",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10006,
+    "materiaName": "Audioperceptiva Aplicada II",
+    "searchName": "audioperceptiva aplicada ii"
+  },
+  {
+    "id": "PS-0057",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 57,
+    "materiaName": "Biología del Comportamiento",
+    "searchName": "biologia del comportamiento"
+  },
+  {
+    "id": "TE-0218",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 218,
+    "materiaName": "Biomecánica",
+    "searchName": "biomecanica"
+  },
+  {
+    "id": "PS-0010",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10,
+    "materiaName": "Clínica de Niños y Adolescentes",
+    "searchName": "clinica de ninos y adolescentes"
+  },
+  {
+    "id": "PS-10229",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10229,
+    "materiaName": "Clínica del autismo y la psicosis en la infancia",
+    "searchName": "clinica del autismo y la psicosis en la infancia"
+  },
+  {
+    "id": "TE-0184",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 184,
+    "materiaName": "Clínica Médica y Neurología",
+    "searchName": "clinica medica y neurologia"
+  },
+  {
+    "id": "PS-0078",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 78,
+    "materiaName": "Clínica Psicológica y Psicoterapias: Clínica de Adultos",
+    "searchName": "clinica psicologica y psicoterapias: clinica de adultos"
+  },
+  {
+    "id": "PS-0037",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 37,
+    "materiaName": "Clínica Psicológica y Psicoterapias: Psicoterapias, Emergencia e Interconsultas",
+    "searchName": "clinica psicologica y psicoterapias: psicoterapias, emergencia e interconsultas"
+  },
+  {
+    "id": "PS-10205",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10205,
+    "materiaName": "Construcción de los Conceptos Psicoanalíticos",
+    "searchName": "construccion de los conceptos psicoanaliticos"
+  },
+  {
+    "id": "PS-0042",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 42,
+    "materiaName": "Criminología",
+    "searchName": "criminologia"
+  },
+  {
+    "id": "LM-10099",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10099,
+    "materiaName": "Curso de Formación Musical",
+    "searchName": "curso de formacion musical"
+  },
+  {
+    "id": "PS-0643",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 643,
+    "materiaName": "Diagnóstico y Abordaje de las Crisis Infanto - Juveniles",
+    "searchName": "diagnostico y abordaje de las crisis infanto - juveniles"
+  },
+  {
+    "id": "PR-0903",
+    "program": "PR",
+    "programName": "Profesorado en Psicología",
+    "materiaCode": 903,
+    "materiaName": "Didáctica Especial de la Psicología",
+    "searchName": "didactica especial de la psicologia"
+  },
+  {
+    "id": "PR-0902",
+    "program": "PR",
+    "programName": "Profesorado en Psicología",
+    "materiaCode": 902,
+    "materiaName": "Didáctica General",
+    "searchName": "didactica general"
+  },
+  {
+    "id": "PS-10231",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10231,
+    "materiaName": "El rol del psicólogo en el equipo interdisciplinario de salud",
+    "searchName": "el rol del psicologo en el equipo interdisciplinario de salud"
+  },
+  {
+    "id": "LM-10005",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10005,
+    "materiaName": "Escuelas Psicológicas Contemporáneas",
+    "searchName": "escuelas psicologicas contemporaneas"
+  },
+  {
+    "id": "PS-0027",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 27,
+    "materiaName": "Estadística",
+    "searchName": "estadistica"
+  },
+  {
+    "id": "LM-10008",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10008,
+    "materiaName": "Estadística y Metodología de la Investigación",
+    "searchName": "estadistica y metodologia de la investigacion"
+  },
+  {
+    "id": "TE-0179",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 179,
+    "materiaName": "Fisiología",
+    "searchName": "fisiologia"
+  },
+  {
+    "id": "PS-0048",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 48,
+    "materiaName": "Fisiopatología y Enfermedades Psicosomáticas",
+    "searchName": "fisiopatologia y enfermedades psicosomaticas"
+  },
+  {
+    "id": "LM-10012",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10012,
+    "materiaName": "Grupo de Improvisación en Musicoterapia",
+    "searchName": "grupo de improvisacion en musicoterapia"
+  },
+  {
+    "id": "PS-0001",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 1,
+    "materiaName": "Historia de la Psicología",
+    "searchName": "historia de la psicologia"
+  },
+  {
+    "id": "PS-0608",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 608,
+    "materiaName": "Informática, Educación y Sociedad",
+    "searchName": "informatica, educacion y sociedad"
+  },
+  {
+    "id": "PS-0070",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 70,
+    "materiaName": "Introducción a los Estudios de Género",
+    "searchName": "introduccion a los estudios de genero"
+  },
+  {
+    "id": "TE-0177",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 177,
+    "materiaName": "La Ocupación y su Proceso I",
+    "searchName": "la ocupacion y su proceso i"
+  },
+  {
+    "id": "TE-0182",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 182,
+    "materiaName": "La Ocupación y su Proceso II",
+    "searchName": "la ocupacion y su proceso ii"
+  },
+  {
+    "id": "TE-0216",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 216,
+    "materiaName": "La Ocupación y su Proceso III",
+    "searchName": "la ocupacion y su proceso iii"
+  },
+  {
+    "id": "PS-0028",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 28,
+    "materiaName": "Metodología de la Investigación",
+    "searchName": "metodologia de la investigacion"
+  },
+  {
+    "id": "TE-0217",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 217,
+    "materiaName": "Metodología de la Investigación y Estadística",
+    "searchName": "metodologia de la investigacion y estadistica"
+  },
+  {
+    "id": "PS-0653",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 653,
+    "materiaName": "Metodología Psicoanalítica",
+    "searchName": "metodologia psicoanalitica"
+  },
+  {
+    "id": "LM-10004",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10004,
+    "materiaName": "Musicoterapia en el Àmbito Educativo",
+    "searchName": "musicoterapia en el ambito educativo"
+  },
+  {
+    "id": "LM-10011",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10011,
+    "materiaName": "Musicoterapia en Salud Mental",
+    "searchName": "musicoterapia en salud mental"
+  },
+  {
+    "id": "LM-0393",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 393,
+    "materiaName": "Musicoterapia I",
+    "searchName": "musicoterapia i"
+  },
+  {
+    "id": "LM-10000",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10000,
+    "materiaName": "Musicoterapia II",
+    "searchName": "musicoterapia ii"
+  },
+  {
+    "id": "LM-10010",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10010,
+    "materiaName": "Musicoterapia III",
+    "searchName": "musicoterapia iii"
+  },
+  {
+    "id": "LM-10007",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10007,
+    "materiaName": "Musicoterapia, Comunicación y Discapacidad",
+    "searchName": "musicoterapia, comunicacion y discapacidad"
+  },
+  {
+    "id": "PS-0015",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 15,
+    "materiaName": "Neurofisiología",
+    "searchName": "neurofisiologia"
+  },
+  {
+    "id": "LM-0398",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 398,
+    "materiaName": "Neurofisiopatología",
+    "searchName": "neurofisiopatologia"
+  },
+  {
+    "id": "PS-0058",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 58,
+    "materiaName": "Neuropsicología",
+    "searchName": "neuropsicologia"
+  },
+  {
+    "id": "LM-0400",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 400,
+    "materiaName": "Neuropsicopatología",
+    "searchName": "neuropsicopatologia"
+  },
+  {
+    "id": "PS-0691",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 691,
+    "materiaName": "Niños y Adolescentes en Conflicto con la Ley Penal: Abordaje Integral",
+    "searchName": "ninos y adolescentes en conflicto con la ley penal: abordaje integral"
+  },
+  {
+    "id": "TE-0219",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 219,
+    "materiaName": "Orientación para el ejercicio profesional",
+    "searchName": "orientacion para el ejercicio profesional"
+  },
+  {
+    "id": "PS-0053",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 53,
+    "materiaName": "Orientación Vocacional y Ocupacional",
+    "searchName": "orientacion vocacional y ocupacional"
+  },
+  {
+    "id": "TE-0185",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 185,
+    "materiaName": "Ortopedia",
+    "searchName": "ortopedia"
+  },
+  {
+    "id": "PS-10332",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10332,
+    "materiaName": "P.P: P.I.: Problemas bioéticos en Educación sexual integral",
+    "searchName": "p.p: p.i.: problemas bioeticos en educacion sexual integral"
+  },
+  {
+    "id": "PS-10330",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10330,
+    "materiaName": "P.P: P.I.: Terapia Cognitivo Conductual y el proceso de Investigación Clínica",
+    "searchName": "p.p: p.i.: terapia cognitivo conductual y el proceso de investigacion clinica"
+  },
+  {
+    "id": "PS-10349",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10349,
+    "materiaName": "P.P:P.I.: Cine y psicología. Abordaje metodológico-organizacional a partir de películas y series contemporáneas",
+    "searchName": "p.p:p.i.: cine y psicologia. abordaje metodologico-organizacional a partir de peliculas y series contemporaneas"
+  },
+  {
+    "id": "PS-10346",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10346,
+    "materiaName": "P.P:P.I.: Investigación Clínica y Prevención en los tiempos de la Primera Infancia",
+    "searchName": "p.p:p.i.: investigacion clinica y prevencion en los tiempos de la primera infancia"
+  },
+  {
+    "id": "PS-10235",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10235,
+    "materiaName": "P.P.: P.I.: Evaluación Psicológica en Contexto",
+    "searchName": "p.p.: p.i.: evaluacion psicologica en contexto"
+  },
+  {
+    "id": "PS-10337",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10337,
+    "materiaName": "P.P.: P.I.: Investigaciones en Salud Mental desde la Perspectiva de Derechos",
+    "searchName": "p.p.: p.i.: investigaciones en salud mental desde la perspectiva de derechos"
+  },
+  {
+    "id": "PS-10053",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10053,
+    "materiaName": "P.P.: P.I.: La Psicología en el Ámbito Jurídico. Reflexiones Ético - Clínicas a Través de un Estudio Cualitativo de Casos",
+    "searchName": "p.p.: p.i.: la psicologia en el ambito juridico. reflexiones etico - clinicas a traves de un estudio cualitativo de casos"
+  },
+  {
+    "id": "PS-0687",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 687,
+    "materiaName": "P.P.: P.P.: Área Clínica y Social Comunitaria: Fundamentos Clínicos del Acompañamiento Terapéutico",
+    "searchName": "p.p.: p.p.: area clinica y social comunitaria: fundamentos clinicos del acompanamiento terapeutico"
+  },
+  {
+    "id": "PS-10232",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10232,
+    "materiaName": "P.P.: P.P.: Area Clínica: Abordaje de las patologías del acto: La clínica en los bordes",
+    "searchName": "p.p.: p.p.: area clinica: abordaje de las patologias del acto: la clinica en los bordes"
+  },
+  {
+    "id": "PS-0689",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 689,
+    "materiaName": "P.P.: P.P.: Área Clínica: Atención Psicológica en un Hospital",
+    "searchName": "p.p.: p.p.: area clinica: atencion psicologica en un hospital"
+  },
+  {
+    "id": "PS-10354",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10354,
+    "materiaName": "P.P.: P.P.: Area Clínica: Clínica Analítica de las Psicosis",
+    "searchName": "p.p.: p.p.: area clinica: clinica analitica de las psicosis"
+  },
+  {
+    "id": "PS-0270",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 270,
+    "materiaName": "P.P.: P.P.: Área Clínica: Clínica con Púberes y Adolescentes en el Hospital",
+    "searchName": "p.p.: p.p.: area clinica: clinica con puberes y adolescentes en el hospital"
+  },
+  {
+    "id": "PS-0256",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 256,
+    "materiaName": "P.P.: P.P.: Área Clínica: Clínica de la Urgencia",
+    "searchName": "p.p.: p.p.: area clinica: clinica de la urgencia"
+  },
+  {
+    "id": "PS-0267",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 267,
+    "materiaName": "P.P.: P.P.: Área Clínica: Clínica de las Adicciones: Abordaje Interdisciplinario",
+    "searchName": "p.p.: p.p.: area clinica: clinica de las adicciones: abordaje interdisciplinario"
+  },
+  {
+    "id": "PS-10233",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10233,
+    "materiaName": "P.P.: P.P.: Area Clinica: Clínica de los transtornos de la personalidad y las psicosis",
+    "searchName": "p.p.: p.p.: area clinica: clinica de los transtornos de la personalidad y las psicosis"
+  },
+  {
+    "id": "PS-0264",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 264,
+    "materiaName": "P.P.: P.P.: Área Clínica: Clínica de Niños y Adolescentes: Las Formaciones del Síntoma",
+    "searchName": "p.p.: p.p.: area clinica: clinica de ninos y adolescentes: las formaciones del sintoma"
+  },
+  {
+    "id": "PS-10227",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10227,
+    "materiaName": "P.P.: P.P.: Area Clínica: Clínica en las Instituciones Públicas: Dispositivos de salud mental en el abordaje de la complejidad",
+    "searchName": "p.p.: p.p.: area clinica: clinica en las instituciones publicas: dispositivos de salud mental en el abordaje de la complejidad"
+  },
+  {
+    "id": "PS-10353",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10353,
+    "materiaName": "P.P.: P.P.: Area Clínica: Clínica Sistémica: Familia y Pareja. Entrenamiento de Entrevistas de Familia y Pareja",
+    "searchName": "p.p.: p.p.: area clinica: clinica sistemica: familia y pareja. entrenamiento de entrevistas de familia y pareja"
+  },
+  {
+    "id": "PS-10348",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10348,
+    "materiaName": "P.P.: P.P.: Área Clínica: Diagnóstico y tratamiento en personas que presentan Trastorno del Espectro Autista",
+    "searchName": "p.p.: p.p.: area clinica: diagnostico y tratamiento en personas que presentan trastorno del espectro autista"
+  },
+  {
+    "id": "PS-0298",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 298,
+    "materiaName": "P.P.: P.P.: Área Clínica: El Juego en los Límites: el Psicoanálisis y la Clínica en Problemas en el Desarrollo Infantil",
+    "searchName": "p.p.: p.p.: area clinica: el juego en los limites: el psicoanalisis y la clinica en problemas en el desarrollo infantil"
+  },
+  {
+    "id": "PS-10239",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10239,
+    "materiaName": "P.P.: P.P.: Area Clínica: El rol del psicólogo en el ámbito de las tecnologías de la reproducción humana asistida (TRHA",
+    "searchName": "p.p.: p.p.: area clinica: el rol del psicologo en el ambito de las tecnologias de la reproduccion humana asistida (trha"
+  },
+  {
+    "id": "PS-0265",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 265,
+    "materiaName": "P.P.: P.P.: Área Clínica: Hospital de niños Dr. Ricardo Gutiérrez",
+    "searchName": "p.p.: p.p.: area clinica: hospital de ninos dr. ricardo gutierrez"
+  },
+  {
+    "id": "PS-10242",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10242,
+    "materiaName": "P.P.: P.P.: Area Clínica: La Angustia en la Experiencia Analítica",
+    "searchName": "p.p.: p.p.: area clinica: la angustia en la experiencia analitica"
+  },
+  {
+    "id": "PS-0260",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 260,
+    "materiaName": "P.P.: P.P.: Área Clínica: La Clínica en la Emergencia",
+    "searchName": "p.p.: p.p.: area clinica: la clinica en la emergencia"
+  },
+  {
+    "id": "PS-0703",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 703,
+    "materiaName": "P.P.: P.P.: Área Clínica: Neuropsicología Práctica: Técnicas de Evaluación",
+    "searchName": "p.p.: p.p.: area clinica: neuropsicologia practica: tecnicas de evaluacion"
+  },
+  {
+    "id": "PS-0259",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 259,
+    "materiaName": "P.P.: P.P.: Área Clínica: Orientación Psicosomática Hospital Durand",
+    "searchName": "p.p.: p.p.: area clinica: orientacion psicosomatica hospital durand"
+  },
+  {
+    "id": "PS-10039",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10039,
+    "materiaName": "P.P.: P.P.: Área Clínica: Práctica Clínica en Anorexias, Bulimias y Obesidad",
+    "searchName": "p.p.: p.p.: area clinica: practica clinica en anorexias, bulimias y obesidad"
+  },
+  {
+    "id": "PS-0280",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 280,
+    "materiaName": "P.P.: P.P.: Área Clínica: Práctica Clínica Psicoanalítica de Niños con Base Comunitaria",
+    "searchName": "p.p.: p.p.: area clinica: practica clinica psicoanalitica de ninos con base comunitaria"
+  },
+  {
+    "id": "PS-10342",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10342,
+    "materiaName": "P.P.: P.P.: Area Clínica: Práctica Profesional en Psicología Aeronáutica y Factores Humanos",
+    "searchName": "p.p.: p.p.: area clinica: practica profesional en psicologia aeronautica y factores humanos"
+  },
+  {
+    "id": "PS-0301",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 301,
+    "materiaName": "P.P.: P.P.: Área Clínica: Problemática Clínica en Niñez, Adolescencia y Familia",
+    "searchName": "p.p.: p.p.: area clinica: problematica clinica en ninez, adolescencia y familia"
+  },
+  {
+    "id": "PS-0297",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 297,
+    "materiaName": "P.P.: P.P.: Área Clínica: Psicología Perinatal",
+    "searchName": "p.p.: p.p.: area clinica: psicologia perinatal"
+  },
+  {
+    "id": "PS-0262",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 262,
+    "materiaName": "P.P.: P.P.: Área Clínica: Variantes en la Consulta Ambulatoria",
+    "searchName": "p.p.: p.p.: area clinica: variantes en la consulta ambulatoria"
+  },
+  {
+    "id": "PS-0254",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 254,
+    "materiaName": "P.P.: P.P.: Área Educacional y Trabajo: Orientación Vocacional y Ocupacional",
+    "searchName": "p.p.: p.p.: area educacional y trabajo: orientacion vocacional y ocupacional"
+  },
+  {
+    "id": "PS-0255",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 255,
+    "materiaName": "P.P.: P.P.: Área Educacional: Discapacidad: Intervenciones en la Niñez y la Adolescencia. El proceso de Integración",
+    "searchName": "p.p.: p.p.: area educacional: discapacidad: intervenciones en la ninez y la adolescencia. el proceso de integracion"
+  },
+  {
+    "id": "PS-10347",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10347,
+    "materiaName": "P.P.: P.P.: Área Justicia: El rol del psicólogo en el Ministerio Público Fiscal",
+    "searchName": "p.p.: p.p.: area justicia: el rol del psicologo en el ministerio publico fiscal"
+  },
+  {
+    "id": "PS-0273",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 273,
+    "materiaName": "P.P.: P.P.: Área Justicia: El Trabajo con Familias en el Ámbito Jurídico",
+    "searchName": "p.p.: p.p.: area justicia: el trabajo con familias en el ambito juridico"
+  },
+  {
+    "id": "PS-0258",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 258,
+    "materiaName": "P.P.: P.P.: Área Justicia: Instituciones Forenses",
+    "searchName": "p.p.: p.p.: area justicia: instituciones forenses"
+  },
+  {
+    "id": "PS-0718",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 718,
+    "materiaName": "P.P.: P.P.: Área Justicia: La Actividad Pericial en Psicología Jurídica",
+    "searchName": "p.p.: p.p.: area justicia: la actividad pericial en psicologia juridica"
+  },
+  {
+    "id": "PS-10343",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10343,
+    "materiaName": "P.P.: P.P.: Area Social Comunitaria: Abordaje comunitario en barrios vulnerables",
+    "searchName": "p.p.: p.p.: area social comunitaria: abordaje comunitario en barrios vulnerables"
+  },
+  {
+    "id": "PS-10319",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10319,
+    "materiaName": "P.P.: P.P.: Área Social Comunitaria: Abordaje y Prevención de Violencias basadas en el Género en Dispositivos Comunitarios y Asistenciales",
+    "searchName": "p.p.: p.p.: area social comunitaria: abordaje y prevencion de violencias basadas en el genero en dispositivos comunitarios y asistenciales"
+  },
+  {
+    "id": "PS-0707",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 707,
+    "materiaName": "P.P.: P.P.: Área Social Comunitaria: Adicciones: Un Abordaje Clínico-Comunitario",
+    "searchName": "p.p.: p.p.: area social comunitaria: adicciones: un abordaje clinico-comunitario"
+  },
+  {
+    "id": "PS-0278",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 278,
+    "materiaName": "P.P.: P.P.: Área Social Comunitaria: Ámbito Comunitario Familia y Enfermedad Crónica",
+    "searchName": "p.p.: p.p.: area social comunitaria: ambito comunitario familia y enfermedad cronica"
+  },
+  {
+    "id": "PS-10058",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10058,
+    "materiaName": "P.P.: P.P.: Área Social Comunitaria: El Psicólogo en Centros de Atención Primaria: Un Enfoque Preventivo y Comunitario del Trabajo en Salud",
+    "searchName": "p.p.: p.p.: area social comunitaria: el psicologo en centros de atencion primaria: un enfoque preventivo y comunitario del trabajo en salud"
+  },
+  {
+    "id": "PS-0698",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 698,
+    "materiaName": "P.P.: P.P.: Área Social Comunitaria: El Rol del Psicólogo en una Experiencia de Trabajo Interdisciplinario en la Comunidad",
+    "searchName": "p.p.: p.p.: area social comunitaria: el rol del psicologo en una experiencia de trabajo interdisciplinario en la comunidad"
+  },
+  {
+    "id": "PS-10240",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10240,
+    "materiaName": "P.P.: P.P.: Area Social Comunitaria: El rol del psicólogo/a en la promoción de la salud sexual y la salud reproductiva",
+    "searchName": "p.p.: p.p.: area social comunitaria: el rol del psicologo/a en la promocion de la salud sexual y la salud reproductiva"
+  },
+  {
+    "id": "PS-10241",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10241,
+    "materiaName": "P.P.: P.P.: Area Social Comunitaria: Intervenciones psicoanalíticas con jóvenes en situación de vulnerabilidad",
+    "searchName": "p.p.: p.p.: area social comunitaria: intervenciones psicoanaliticas con jovenes en situacion de vulnerabilidad"
+  },
+  {
+    "id": "PS-10060",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10060,
+    "materiaName": "P.P.: P.P.: Área Social Comunitaria: Promoción de la Salud en adolescentes. Práctica en evaluación, diagnóstico y prevención en instituciones educativas",
+    "searchName": "p.p.: p.p.: area social comunitaria: promocion de la salud en adolescentes. practica en evaluacion, diagnostico y prevencion en instituciones educativas"
+  },
+  {
+    "id": "PS-10226",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10226,
+    "materiaName": "P.P.: P.P.: Area Social Comunitaria: Psicologia del Deporte y la Actividad Física",
+    "searchName": "p.p.: p.p.: area social comunitaria: psicologia del deporte y la actividad fisica"
+  },
+  {
+    "id": "PS-0033",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 33,
+    "materiaName": "P.P.: P.P.: Área Social Comunitaria: Salud Mental y Desinstitucionalización",
+    "searchName": "p.p.: p.p.: area social comunitaria: salud mental y desinstitucionalizacion"
+  },
+  {
+    "id": "PS-10211",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10211,
+    "materiaName": "P.P.: P.P.: Area Social Comunitaria: Violencia. Modos de intervención en los dispositivos clinicos y socio comunitarios",
+    "searchName": "p.p.: p.p.: area social comunitaria: violencia. modos de intervencion en los dispositivos clinicos y socio comunitarios"
+  },
+  {
+    "id": "PS-0657",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 657,
+    "materiaName": "P.P.: P.P.: Área Trabajo: Proceso de Reinserción Laboral",
+    "searchName": "p.p.: p.p.: area trabajo: proceso de reinsercion laboral"
+  },
+  {
+    "id": "PS-10309",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10309,
+    "materiaName": "P.P.:Area Social Comunitaria: El psicólogo en la Práctica Comunitaria e institucional con Adultos Mayores",
+    "searchName": "p.p.:area social comunitaria: el psicologo en la practica comunitaria e institucional con adultos mayores"
+  },
+  {
+    "id": "PS-10335",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10335,
+    "materiaName": "P.P.:P.I.: Bioética en Instituciones de Salud",
+    "searchName": "p.p.:p.i.: bioetica en instituciones de salud"
+  },
+  {
+    "id": "PS-10333",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10333,
+    "materiaName": "P.P.:P.P.: Área Justicia: Acogimiento y Adopción. Intervenciones con infancias deprivadas y evaluación parental",
+    "searchName": "p.p.:p.p.: area justicia: acogimiento y adopcion. intervenciones con infancias deprivadas y evaluacion parental"
+  },
+  {
+    "id": "TE-0187",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 187,
+    "materiaName": "Práctica Profesional I",
+    "searchName": "practica profesional i"
+  },
+  {
+    "id": "TE-0190",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 190,
+    "materiaName": "Práctica Profesional II",
+    "searchName": "practica profesional ii"
+  },
+  {
+    "id": "TE-0214",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 214,
+    "materiaName": "Práctica Profesional III",
+    "searchName": "practica profesional iii"
+  },
+  {
+    "id": "TE-0220",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 220,
+    "materiaName": "Práctica Profesional IV",
+    "searchName": "practica profesional iv"
+  },
+  {
+    "id": "LM-10243",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10243,
+    "materiaName": "Práctica Profesional. Módulo I: Area Clínica",
+    "searchName": "practica profesional. modulo i: area clinica"
+  },
+  {
+    "id": "LM-10245",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10245,
+    "materiaName": "Práctica Profesional. Módulo I: Area Educacional",
+    "searchName": "practica profesional. modulo i: area educacional"
+  },
+  {
+    "id": "LM-10247",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10247,
+    "materiaName": "Práctica Profesional. Módulo I: Area Emergente",
+    "searchName": "practica profesional. modulo i: area emergente"
+  },
+  {
+    "id": "LM-10244",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10244,
+    "materiaName": "Práctica Profesional. Módulo II: Area Clínica",
+    "searchName": "practica profesional. modulo ii: area clinica"
+  },
+  {
+    "id": "LM-10246",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10246,
+    "materiaName": "Práctica Profesional. Módulo II: Area Educacional",
+    "searchName": "practica profesional. modulo ii: area educacional"
+  },
+  {
+    "id": "LM-10248",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10248,
+    "materiaName": "Práctica Profesional. Módulo II: Area Emergente",
+    "searchName": "practica profesional. modulo ii: area emergente"
+  },
+  {
+    "id": "PS-0056",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 56,
+    "materiaName": "Problemas Antropológicos en Psicología",
+    "searchName": "problemas antropologicos en psicologia"
+  },
+  {
+    "id": "PS-0063",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 63,
+    "materiaName": "Problemas Filosóficos en Psicología",
+    "searchName": "problemas filosoficos en psicologia"
+  },
+  {
+    "id": "PS-0054",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 54,
+    "materiaName": "Problemas Sociológicos en Psicología",
+    "searchName": "problemas sociologicos en psicologia"
+  },
+  {
+    "id": "PS-10350",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10350,
+    "materiaName": "Procesos Psicológicos Básicos",
+    "searchName": "procesos psicologicos basicos"
+  },
+  {
+    "id": "PS-0024",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 24,
+    "materiaName": "Psicoanálisis: Escuela Francesa",
+    "searchName": "psicoanalisis: escuela francesa"
+  },
+  {
+    "id": "PS-0018",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 18,
+    "materiaName": "Psicoanálisis: Escuela Inglesa",
+    "searchName": "psicoanalisis: escuela inglesa"
+  },
+  {
+    "id": "PS-10221",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10221,
+    "materiaName": "Psicoanálisis: orientación lacaniana, clínica y escritura",
+    "searchName": "psicoanalisis: orientacion lacaniana, clinica y escritura"
+  },
+  {
+    "id": "PS-0049",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 49,
+    "materiaName": "Psicodiagnóstico: Rorschach",
+    "searchName": "psicodiagnostico: rorschach"
+  },
+  {
+    "id": "PS-0206",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 206,
+    "materiaName": "Psicofarmacología",
+    "searchName": "psicofarmacologia"
+  },
+  {
+    "id": "PS-0721",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 721,
+    "materiaName": "Psicología Aplicada a las Organizaciones",
+    "searchName": "psicologia aplicada a las organizaciones"
+  },
+  {
+    "id": "PS-0199",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 199,
+    "materiaName": "Psicología Aplicada al Deporte",
+    "searchName": "psicologia aplicada al deporte"
+  },
+  {
+    "id": "PS-0096",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 96,
+    "materiaName": "Psicología de la Discapacidad",
+    "searchName": "psicologia de la discapacidad"
+  },
+  {
+    "id": "PS-10352",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10352,
+    "materiaName": "Psicología de la Personalidad",
+    "searchName": "psicologia de la personalidad"
+  },
+  {
+    "id": "PS-0047",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 47,
+    "materiaName": "Psicología de la Tercera Edad y Vejez",
+    "searchName": "psicologia de la tercera edad y vejez"
+  },
+  {
+    "id": "TE-0180",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 180,
+    "materiaName": "Psicología de los Ciclos Vitales I",
+    "searchName": "psicologia de los ciclos vitales i"
+  },
+  {
+    "id": "TE-0183",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 183,
+    "materiaName": "Psicología de los Ciclos Vitales II",
+    "searchName": "psicologia de los ciclos vitales ii"
+  },
+  {
+    "id": "PS-10351",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10351,
+    "materiaName": "Psicología del Aprendizaje",
+    "searchName": "psicologia del aprendizaje"
+  },
+  {
+    "id": "LM-0396",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 396,
+    "materiaName": "Psicología del Ciclo Vital I",
+    "searchName": "psicologia del ciclo vital i"
+  },
+  {
+    "id": "LM-0402",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 402,
+    "materiaName": "Psicología del Ciclo Vital II",
+    "searchName": "psicologia del ciclo vital ii"
+  },
+  {
+    "id": "PS-0007",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 7,
+    "materiaName": "Psicología del Trabajo",
+    "searchName": "psicologia del trabajo"
+  },
+  {
+    "id": "PS-0008",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 8,
+    "materiaName": "Psicología Educacional",
+    "searchName": "psicologia educacional"
+  },
+  {
+    "id": "PS-0038",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 38,
+    "materiaName": "Psicología Etica y Derechos Humanos",
+    "searchName": "psicologia etica y derechos humanos"
+  },
+  {
+    "id": "PS-0022",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 22,
+    "materiaName": "Psicología Evolutiva Adolescencia",
+    "searchName": "psicologia evolutiva adolescencia"
+  },
+  {
+    "id": "PS-0020",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 20,
+    "materiaName": "Psicología Evolutiva Niñez",
+    "searchName": "psicologia evolutiva ninez"
+  },
+  {
+    "id": "PS-0045",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 45,
+    "materiaName": "Psicología Fenomenológica y Existencial",
+    "searchName": "psicologia fenomenologica y existencial"
+  },
+  {
+    "id": "PS-0006",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 6,
+    "materiaName": "Psicología Institucional",
+    "searchName": "psicologia institucional"
+  },
+  {
+    "id": "PS-0036",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 36,
+    "materiaName": "Psicología Jurídica",
+    "searchName": "psicologia juridica"
+  },
+  {
+    "id": "PS-10212",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10212,
+    "materiaName": "Psicología Política",
+    "searchName": "psicologia politica"
+  },
+  {
+    "id": "PS-0034",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 34,
+    "materiaName": "Psicología Preventiva",
+    "searchName": "psicologia preventiva"
+  },
+  {
+    "id": "PS-0002",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 2,
+    "materiaName": "Psicología Social",
+    "searchName": "psicologia social"
+  },
+  {
+    "id": "TE-0189",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 189,
+    "materiaName": "Psicología Social, de las Instituciones y de los Grupos",
+    "searchName": "psicologia social, de las instituciones y de los grupos"
+  },
+  {
+    "id": "LM-0404",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 404,
+    "materiaName": "Psicopatología",
+    "searchName": "psicopatologia"
+  },
+  {
+    "id": "TE-0186",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 186,
+    "materiaName": "Psicopatología",
+    "searchName": "psicopatologia"
+  },
+  {
+    "id": "PS-0067",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 67,
+    "materiaName": "Psicopatología Infanto - Juvenil",
+    "searchName": "psicopatologia infanto - juvenil"
+  },
+  {
+    "id": "PS-0052",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 52,
+    "materiaName": "Psicopedagogía Clínica",
+    "searchName": "psicopedagogia clinica"
+  },
+  {
+    "id": "PS-10316",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10316,
+    "materiaName": "Requisito Idioma: Francés Módulo I",
+    "searchName": "requisito idioma: frances modulo i"
+  },
+  {
+    "id": "LM-10316",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10316,
+    "materiaName": "Requisito Idioma: Francés Módulo I",
+    "searchName": "requisito idioma: frances modulo i"
+  },
+  {
+    "id": "TE-10316",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 10316,
+    "materiaName": "Requisito Idioma: Francés Módulo I",
+    "searchName": "requisito idioma: frances modulo i"
+  },
+  {
+    "id": "PS-10317",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10317,
+    "materiaName": "Requisito Idioma: Francés Módulo II",
+    "searchName": "requisito idioma: frances modulo ii"
+  },
+  {
+    "id": "LM-10317",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10317,
+    "materiaName": "Requisito Idioma: Francés Módulo II",
+    "searchName": "requisito idioma: frances modulo ii"
+  },
+  {
+    "id": "TE-10317",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 10317,
+    "materiaName": "Requisito Idioma: Francés Módulo II",
+    "searchName": "requisito idioma: frances modulo ii"
+  },
+  {
+    "id": "PS-10313",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10313,
+    "materiaName": "Requisito Idioma: Inglés Módulo I",
+    "searchName": "requisito idioma: ingles modulo i"
+  },
+  {
+    "id": "LM-10313",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10313,
+    "materiaName": "Requisito Idioma: Inglés Módulo I",
+    "searchName": "requisito idioma: ingles modulo i"
+  },
+  {
+    "id": "TE-10313",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 10313,
+    "materiaName": "Requisito Idioma: Inglés Módulo I",
+    "searchName": "requisito idioma: ingles modulo i"
+  },
+  {
+    "id": "PS-10314",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10314,
+    "materiaName": "Requisito Idioma: Inglés Módulo II",
+    "searchName": "requisito idioma: ingles modulo ii"
+  },
+  {
+    "id": "LM-10314",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10314,
+    "materiaName": "Requisito Idioma: Inglés Módulo II",
+    "searchName": "requisito idioma: ingles modulo ii"
+  },
+  {
+    "id": "TE-10314",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 10314,
+    "materiaName": "Requisito Idioma: Inglés Módulo II",
+    "searchName": "requisito idioma: ingles modulo ii"
+  },
+  {
+    "id": "PS-0032",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 32,
+    "materiaName": "Salud Pública y Salud Mental",
+    "searchName": "salud publica y salud mental"
+  },
+  {
+    "id": "LM-10015",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10015,
+    "materiaName": "Seminario Gestión y Organización del Equipo Interdisciplinario de Salud",
+    "searchName": "seminario gestion y organizacion del equipo interdisciplinario de salud"
+  },
+  {
+    "id": "LM-10013",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10013,
+    "materiaName": "Seminario: Musicoterapia en el Àmbito Hospitalario",
+    "searchName": "seminario: musicoterapia en el ambito hospitalario"
+  },
+  {
+    "id": "LM-10014",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10014,
+    "materiaName": "Seminario: Tecnología e Informática Aplicada a Musicoterapia",
+    "searchName": "seminario: tecnologia e informatica aplicada a musicoterapia"
+  },
+  {
+    "id": "LM-0397",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 397,
+    "materiaName": "Sociedad e Instituciones",
+    "searchName": "sociedad e instituciones"
+  },
+  {
+    "id": "LM-0403",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 403,
+    "materiaName": "Taller de Guitarra",
+    "searchName": "taller de guitarra"
+  },
+  {
+    "id": "LM-0394",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 394,
+    "materiaName": "Taller de Instrumentos Aerófonos",
+    "searchName": "taller de instrumentos aerofonos"
+  },
+  {
+    "id": "LM-10002",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10002,
+    "materiaName": "Taller de Instrumentos de Percusión",
+    "searchName": "taller de instrumentos de percusion"
+  },
+  {
+    "id": "LM-10016",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10016,
+    "materiaName": "Taller: Ética Profesional y Derechos Humanos",
+    "searchName": "taller: etica profesional y derechos humanos"
+  },
+  {
+    "id": "LM-0399",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 399,
+    "materiaName": "Técnica Vocal I",
+    "searchName": "tecnica vocal i"
+  },
+  {
+    "id": "LM-10003",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 10003,
+    "materiaName": "Técnica Vocal II",
+    "searchName": "tecnica vocal ii"
+  },
+  {
+    "id": "LM-0395",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 395,
+    "materiaName": "Técnicas Corporales",
+    "searchName": "tecnicas corporales"
+  },
+  {
+    "id": "PS-0025",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 25,
+    "materiaName": "Teoría y Técnica de Exploración y Diagnóstico Psicológico Módulo I",
+    "searchName": "teoria y tecnica de exploracion y diagnostico psicologico modulo i"
+  },
+  {
+    "id": "PS-0009",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 9,
+    "materiaName": "Teoría y Técnica de Exploración y Diagnóstico Psicológico Módulo II",
+    "searchName": "teoria y tecnica de exploracion y diagnostico psicologico modulo ii"
+  },
+  {
+    "id": "PS-0030",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 30,
+    "materiaName": "Teoría y Técnica de Grupos",
+    "searchName": "teoria y tecnica de grupos"
+  },
+  {
+    "id": "LM-0401",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "materiaCode": 401,
+    "materiaName": "Teoría y Técnica de Grupos",
+    "searchName": "teoria y tecnica de grupos"
+  },
+  {
+    "id": "PS-0111",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 111,
+    "materiaName": "Teoría y Técnica de la Clínica Sistémica",
+    "searchName": "teoria y tecnica de la clinica sistemica"
+  },
+  {
+    "id": "TE-0176",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 176,
+    "materiaName": "Teoría y Técnica de Terapia Ocupacional I",
+    "searchName": "teoria y tecnica de terapia ocupacional i"
+  },
+  {
+    "id": "TE-0181",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 181,
+    "materiaName": "Teoría y Técnica de Terapia Ocupacional II",
+    "searchName": "teoria y tecnica de terapia ocupacional ii"
+  },
+  {
+    "id": "TE-0188",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 188,
+    "materiaName": "Teoría y Técnica de Terapia Ocupacional III",
+    "searchName": "teoria y tecnica de terapia ocupacional iii"
+  },
+  {
+    "id": "TE-0191",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 191,
+    "materiaName": "Teoría y Técnica de Terapia Ocupacional IV",
+    "searchName": "teoria y tecnica de terapia ocupacional iv"
+  },
+  {
+    "id": "TE-0215",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "materiaCode": 215,
+    "materiaName": "Teoría y Técnica de Terapia Ocupacional V",
+    "searchName": "teoria y tecnica de terapia ocupacional v"
+  },
+  {
+    "id": "PR-0901",
+    "program": "PR",
+    "programName": "Profesorado en Psicología",
+    "materiaCode": 901,
+    "materiaName": "Teorías de la Educación y Sistema Educativo Argentino",
+    "searchName": "teorias de la educacion y sistema educativo argentino"
+  },
+  {
+    "id": "PS-10047",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "materiaCode": 10047,
+    "materiaName": "Victimología",
+    "searchName": "victimologia"
+  }
+]

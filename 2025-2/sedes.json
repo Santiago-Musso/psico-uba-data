@@ -1,0 +1,37 @@
+[
+  {
+    "id": "HY",
+    "name": "Sede Hipólito Yrigoyen",
+    "address": "Hipólito Yrigoyen 3242, CABA",
+    "lat": -34.612274,
+    "lng": -58.412206
+  },
+  {
+    "id": "IN",
+    "name": "Sede Independencia",
+    "address": "Av. Independencia 3065, CABA",
+    "lat": -34.61989,
+    "lng": -58.408737
+  },
+  {
+    "id": "SI",
+    "name": "Sede San Isidro",
+    "address": "Córdoba 1957, Martínez",
+    "lat": -34.498287,
+    "lng": -58.524387
+  },
+  {
+    "id": "AV",
+    "name": "Sede Avellaneda",
+    "address": "Eva Perón y Güemes (S/N), Avellaneda, PBA",
+    "lat": -34.67583,
+    "lng": -58.364872
+  },
+  {
+    "id": "EC",
+    "name": "Facultad de Ciencias Económicas",
+    "address": "Uriburu 781, CABA",
+    "lat": -34.5999228,
+    "lng": -58.3984521
+  }
+]
