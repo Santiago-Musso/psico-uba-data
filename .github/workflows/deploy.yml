@@ -1,0 +1,76 @@
+name: Deploy data to GitHub Pages
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install deps (for optional build/generation)
+        run: npm ci
+
+      - name: (Optional) Generate/refresh data
+        # Keep as a placeholder; uncomment if you want CI to refresh data
+        if: ${{ false }}
+        run: |
+          npm run build
+          npm run fetch:2025-2
+
+      - name: Prepare _site directory
+        run: |
+          rm -rf _site
+          mkdir -p _site
+          # copy top-level term directories like 2025-2, 2026-1, etc.
+          for d in */ ; do
+            # skip node_modules, src, .github, and other non-term directories
+            case "$d" in
+              node_modules*/|src*/|.github*/) continue ;;
+            esac
+            if [[ "$d" =~ ^[0-9]{4}-[0-9]+/ ]]; then
+              cp -a "$d" "_site/$d"
+            fi
+          done
+          # copy any top-level JSON files if they exist
+          shopt -s nullglob
+          for f in *.json; do
+            cp -a "$f" _site/
+          done
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+
