@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "start": "ts-node src/cli.ts",
-    "fetch:2025-2": "ts-node src/cli.ts --term 2025-2"
+    "fetch:2025-2": "ts-node src/cli.ts --term 2025-2",
+    "fetch:2026-1": "ts-node src/cli.ts --term 2026-1" 
   },
   "dependencies": {
     "cheerio": "1.0.0",
