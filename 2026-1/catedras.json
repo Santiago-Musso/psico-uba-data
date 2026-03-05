@@ -66,17 +66,6 @@
     "materiaName": "Neurofisiología"
   },
   {
-    "id": "PS-51",
-    "program": "PS",
-    "programName": "Licenciatura en Psicología",
-    "catedraId": 51,
-    "chairLabel": "I",
-    "docenteTitular": "Prof. Eisenberg, Estela Sonia",
-    "materiaId": "PS-0018",
-    "materiaCode": 18,
-    "materiaName": "Psicoanálisis: Escuela Inglesa"
-  },
-  {
     "id": "PS-38",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
@@ -86,6 +75,17 @@
     "materiaId": "PS-0004",
     "materiaCode": 4,
     "materiaName": "Psicopatología"
+  },
+  {
+    "id": "PS-51",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "catedraId": 51,
+    "chairLabel": "I",
+    "docenteTitular": "Prof. Eisenberg, Estela Sonia",
+    "materiaId": "PS-0018",
+    "materiaCode": 18,
+    "materiaName": "Psicoanálisis: Escuela Inglesa"
   },
   {
     "id": "PS-49",
@@ -165,23 +165,23 @@
     "materiaName": "Estadística"
   },
   {
-    "id": "PS-62",
-    "program": "PS",
-    "programName": "Licenciatura en Psicología",
-    "catedraId": 62,
-    "chairLabel": "II",
-    "docenteTitular": "Prof. Ynoub, Roxana Cecilia",
-    "materiaId": "PS-0028",
-    "materiaCode": 28,
-    "materiaName": "Metodología de la Investigación"
-  },
-  {
     "id": "PS-61",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
     "catedraId": 61,
     "chairLabel": "I",
     "docenteTitular": "Prof. Azzollini, Susana Celeste",
+    "materiaId": "PS-0028",
+    "materiaCode": 28,
+    "materiaName": "Metodología de la Investigación"
+  },
+  {
+    "id": "PS-62",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "catedraId": 62,
+    "chairLabel": "II",
+    "docenteTitular": "Prof. Ynoub, Roxana Cecilia",
     "materiaId": "PS-0028",
     "materiaCode": 28,
     "materiaName": "Metodología de la Investigación"
@@ -198,15 +198,15 @@
     "materiaName": "Teoría y Técnica de Grupos"
   },
   {
-    "id": "PS-78",
+    "id": "PS-64",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
-    "catedraId": 78,
-    "chairLabel": "I",
-    "docenteTitular": "Prof. Muñoz, Pablo Diego",
-    "materiaId": "PS-0045",
-    "materiaCode": 45,
-    "materiaName": "Psicología Fenomenológica y Existencial"
+    "catedraId": 64,
+    "chairLabel": "II",
+    "docenteTitular": "Prof. Rolon, Cintia Gisella",
+    "materiaId": "PS-0030",
+    "materiaCode": 30,
+    "materiaName": "Teoría y Técnica de Grupos"
   },
   {
     "id": "PS-65",
@@ -220,6 +220,17 @@
     "materiaName": "Salud Pública y Salud Mental"
   },
   {
+    "id": "PS-78",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "catedraId": 78,
+    "chairLabel": "I",
+    "docenteTitular": "Prof. Muñoz, Pablo Diego",
+    "materiaId": "PS-0045",
+    "materiaCode": 45,
+    "materiaName": "Psicología Fenomenológica y Existencial"
+  },
+  {
     "id": "PS-66",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
@@ -231,15 +242,15 @@
     "materiaName": "Salud Pública y Salud Mental"
   },
   {
-    "id": "PS-64",
+    "id": "PS-80",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
-    "catedraId": 64,
-    "chairLabel": "II",
-    "docenteTitular": "Prof. Rolon, Cintia Gisella",
-    "materiaId": "PS-0030",
-    "materiaCode": 30,
-    "materiaName": "Teoría y Técnica de Grupos"
+    "catedraId": 80,
+    "chairLabel": "",
+    "docenteTitular": "Dr. Iacub, Ricardo",
+    "materiaId": "PS-0047",
+    "materiaCode": 47,
+    "materiaName": "Psicología de la Tercera Edad y Vejez"
   },
   {
     "id": "PS-82",
@@ -262,17 +273,6 @@
     "materiaId": "PS-0054",
     "materiaCode": 54,
     "materiaName": "Problemas Sociológicos en Psicología"
-  },
-  {
-    "id": "PS-80",
-    "program": "PS",
-    "programName": "Licenciatura en Psicología",
-    "catedraId": 80,
-    "chairLabel": "",
-    "docenteTitular": "Dr. Iacub, Ricardo",
-    "materiaId": "PS-0047",
-    "materiaCode": 47,
-    "materiaName": "Psicología de la Tercera Edad y Vejez"
   },
   {
     "id": "PS-89",
@@ -363,17 +363,6 @@
     "materiaName": "Procesos Psicológicos Básicos"
   },
   {
-    "id": "PS-544",
-    "program": "PS",
-    "programName": "Licenciatura en Psicología",
-    "catedraId": 544,
-    "chairLabel": "I",
-    "docenteTitular": "Prof. Gonzalez, Federico Faustino",
-    "materiaId": "PS-10350",
-    "materiaCode": 10350,
-    "materiaName": "Procesos Psicológicos Básicos"
-  },
-  {
     "id": "PS-167",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
@@ -385,23 +374,23 @@
     "materiaName": "Estadística"
   },
   {
+    "id": "PS-544",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "catedraId": 544,
+    "chairLabel": "I",
+    "docenteTitular": "Prof. Gonzalez, Federico Faustino",
+    "materiaId": "PS-10350",
+    "materiaCode": 10350,
+    "materiaName": "Procesos Psicológicos Básicos"
+  },
+  {
     "id": "PS-546",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
     "catedraId": 546,
     "chairLabel": "I",
     "docenteTitular": "Prof. Barreiro, Alicia Viviana",
-    "materiaId": "PS-10351",
-    "materiaCode": 10351,
-    "materiaName": "Psicología del Aprendizaje"
-  },
-  {
-    "id": "PS-547",
-    "program": "PS",
-    "programName": "Licenciatura en Psicología",
-    "catedraId": 547,
-    "chairLabel": "II",
-    "docenteTitular": "Prof. Fernandez Zalazar, Diana Conce",
     "materiaId": "PS-10351",
     "materiaCode": 10351,
     "materiaName": "Psicología del Aprendizaje"
@@ -440,15 +429,15 @@
     "materiaName": "Psicología del Desarrollo: Niñez"
   },
   {
-    "id": "PS-780",
+    "id": "PS-547",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
-    "catedraId": 780,
-    "chairLabel": "",
-    "docenteTitular": "Prof. Dahab, Jose Norberto",
-    "materiaId": "PS-10048",
-    "materiaCode": 10048,
-    "materiaName": "Análisis y Modificación de la Conducta"
+    "catedraId": 547,
+    "chairLabel": "II",
+    "docenteTitular": "Prof. Fernandez Zalazar, Diana Conce",
+    "materiaId": "PS-10351",
+    "materiaCode": 10351,
+    "materiaName": "Psicología del Aprendizaje"
   },
   {
     "id": "PS-798",
@@ -460,6 +449,17 @@
     "materiaId": "PS-10205",
     "materiaCode": 10205,
     "materiaName": "Construcción de los Conceptos Psicoanalíticos"
+  },
+  {
+    "id": "PS-780",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "catedraId": 780,
+    "chairLabel": "",
+    "docenteTitular": "Prof. Dahab, Jose Norberto",
+    "materiaId": "PS-10048",
+    "materiaCode": 10048,
+    "materiaName": "Análisis y Modificación de la Conducta"
   },
   {
     "id": "PS-806",
@@ -594,17 +594,6 @@
     "materiaName": "Psicología Educacional"
   },
   {
-    "id": "PS-67",
-    "program": "PS",
-    "programName": "Licenciatura en Psicología",
-    "catedraId": 67,
-    "chairLabel": "",
-    "docenteTitular": "Prof. Tisera, Ana Adela",
-    "materiaId": "PS-0034",
-    "materiaCode": 34,
-    "materiaName": "Psicología Preventiva"
-  },
-  {
     "id": "PS-40",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
@@ -614,6 +603,17 @@
     "materiaId": "PS-0007",
     "materiaCode": 7,
     "materiaName": "Psicología del Trabajo"
+  },
+  {
+    "id": "PS-67",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "catedraId": 67,
+    "chairLabel": "",
+    "docenteTitular": "Prof. Tisera, Ana Adela",
+    "materiaId": "PS-0034",
+    "materiaCode": 34,
+    "materiaName": "Psicología Preventiva"
   },
   {
     "id": "PS-81",
@@ -671,17 +671,6 @@
     "materiaName": "Orientación Vocacional y Ocupacional"
   },
   {
-    "id": "PS-91",
-    "program": "PS",
-    "programName": "Licenciatura en Psicología",
-    "catedraId": 91,
-    "chairLabel": "",
-    "docenteTitular": "Prof. Politis, Daniel Gustavo",
-    "materiaId": "PS-0058",
-    "materiaCode": 58,
-    "materiaName": "Neuropsicología"
-  },
-  {
     "id": "PS-105",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
@@ -691,6 +680,17 @@
     "materiaId": "PS-0070",
     "materiaCode": 70,
     "materiaName": "Introducción a los Estudios de Género"
+  },
+  {
+    "id": "PS-91",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "catedraId": 91,
+    "chairLabel": "",
+    "docenteTitular": "Prof. Politis, Daniel Gustavo",
+    "materiaId": "PS-0058",
+    "materiaCode": 58,
+    "materiaName": "Neuropsicología"
   },
   {
     "id": "PS-136",
@@ -759,17 +759,6 @@
     "materiaName": "Psicología Clínica y Psicoterapias II"
   },
   {
-    "id": "PS-577",
-    "program": "PS",
-    "programName": "Licenciatura en Psicología",
-    "catedraId": 577,
-    "chairLabel": "I",
-    "docenteTitular": "Prof. Ormart, Elizabeth Beatriz",
-    "materiaId": "PS-10358",
-    "materiaCode": 10358,
-    "materiaName": "Ética, Deontología y Derechos Humanos"
-  },
-  {
     "id": "PS-574",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
@@ -787,6 +776,17 @@
     "catedraId": 578,
     "chairLabel": "II",
     "docenteTitular": "Prof. Bareiro, Julieta",
+    "materiaId": "PS-10358",
+    "materiaCode": 10358,
+    "materiaName": "Ética, Deontología y Derechos Humanos"
+  },
+  {
+    "id": "PS-577",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "catedraId": 577,
+    "chairLabel": "I",
+    "docenteTitular": "Prof. Ormart, Elizabeth Beatriz",
     "materiaId": "PS-10358",
     "materiaCode": 10358,
     "materiaName": "Ética, Deontología y Derechos Humanos"
@@ -836,17 +836,6 @@
     "materiaName": "Psicofarmacología"
   },
   {
-    "id": "PS-660",
-    "program": "PS",
-    "programName": "Licenciatura en Psicología",
-    "catedraId": 660,
-    "chairLabel": "",
-    "docenteTitular": "Prof. Fernandez Zalazar, Diana Conce",
-    "materiaId": "PS-0608",
-    "materiaCode": 608,
-    "materiaName": "Informática, Educación y Sociedad"
-  },
-  {
     "id": "PS-644",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
@@ -856,6 +845,17 @@
     "materiaId": "PS-10357",
     "materiaCode": 10357,
     "materiaName": "Psicología Organizacional e Institucional"
+  },
+  {
+    "id": "PS-660",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "catedraId": 660,
+    "chairLabel": "",
+    "docenteTitular": "Prof. Fernandez Zalazar, Diana Conce",
+    "materiaId": "PS-0608",
+    "materiaCode": 608,
+    "materiaName": "Informática, Educación y Sociedad"
   },
   {
     "id": "PS-662",
@@ -891,17 +891,6 @@
     "materiaName": "Psicología del Trabajo"
   },
   {
-    "id": "PS-768",
-    "program": "PS",
-    "programName": "Licenciatura en Psicología",
-    "catedraId": 768,
-    "chairLabel": "I",
-    "docenteTitular": "Prof. Ghiso, Claudio Daniel",
-    "materiaId": "PS-0036",
-    "materiaCode": 36,
-    "materiaName": "Psicología Jurídica"
-  },
-  {
     "id": "PS-770",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
@@ -911,6 +900,17 @@
     "materiaId": "PS-10037",
     "materiaCode": 10037,
     "materiaName": "Clínica de las Toxicomanías y el Alcoholismo"
+  },
+  {
+    "id": "PS-768",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "catedraId": 768,
+    "chairLabel": "I",
+    "docenteTitular": "Prof. Ghiso, Claudio Daniel",
+    "materiaId": "PS-0036",
+    "materiaCode": 36,
+    "materiaName": "Psicología Jurídica"
   },
   {
     "id": "PS-769",
@@ -1089,17 +1089,6 @@
     "materiaName": "P.P.: P.P.: Área Clínica: Clínica de las Adicciones: Abordaje Interdisciplinario"
   },
   {
-    "id": "PS-109",
-    "program": "PS",
-    "programName": "Licenciatura en Psicología",
-    "catedraId": 109,
-    "chairLabel": "",
-    "docenteTitular": "Lic. Sotelo, Maria Ines De La Milag",
-    "materiaId": "PS-0256",
-    "materiaCode": 256,
-    "materiaName": "P.P.: P.P.: Área Clínica: Clínica de la Urgencia"
-  },
-  {
     "id": "PS-161",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
@@ -1111,15 +1100,15 @@
     "materiaName": "P.P.: P.P.: Área Clínica: Clínica con Púberes y Adolescentes en el Hospital"
   },
   {
-    "id": "PS-135",
+    "id": "PS-109",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
-    "catedraId": 135,
+    "catedraId": 109,
     "chairLabel": "",
-    "docenteTitular": "Lic. Fränkel, Andrea",
-    "materiaId": "PS-0265",
-    "materiaCode": 265,
-    "materiaName": "P.P.: P.P.: Área Clínica: Hospital de niños Dr. Ricardo Gutiérrez"
+    "docenteTitular": "Lic. Sotelo, Maria Ines De La Milag",
+    "materiaId": "PS-0256",
+    "materiaCode": 256,
+    "materiaName": "P.P.: P.P.: Área Clínica: Clínica de la Urgencia"
   },
   {
     "id": "PS-576",
@@ -1131,6 +1120,17 @@
     "materiaId": "PS-10361",
     "materiaCode": 10361,
     "materiaName": "PP: PP: Area Clínica: Cuidados Paliativos en el Hospital: El rol del psicólogo en torno al fin de la vida"
+  },
+  {
+    "id": "PS-135",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "catedraId": 135,
+    "chairLabel": "",
+    "docenteTitular": "Lic. Fränkel, Andrea",
+    "materiaId": "PS-0265",
+    "materiaCode": 265,
+    "materiaName": "P.P.: P.P.: Área Clínica: Hospital de niños Dr. Ricardo Gutiérrez"
   },
   {
     "id": "PS-579",
@@ -1166,17 +1166,6 @@
     "materiaName": "PP: PP: Area Clínica: Entrenamiento y aplicación de Técnicas Cognitivo‑Conductuales Contemporáneas"
   },
   {
-    "id": "PS-582",
-    "program": "PS",
-    "programName": "Licenciatura en Psicología",
-    "catedraId": 582,
-    "chairLabel": "I",
-    "docenteTitular": "Prof. Salomone, Gabriela Zulma",
-    "materiaId": "PS-10365",
-    "materiaCode": 10365,
-    "materiaName": "PP: PP: Area Social Comunitaria: Derechos y Subjetividad: Intervenciones ético-clínicas"
-  },
-  {
     "id": "PS-583",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
@@ -1186,6 +1175,17 @@
     "materiaId": "PS-10366",
     "materiaCode": 10366,
     "materiaName": "PP: PP: Area Social Comunitaria: Problemas Bioéticos en Educación Sexual Integral"
+  },
+  {
+    "id": "PS-582",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "catedraId": 582,
+    "chairLabel": "I",
+    "docenteTitular": "Prof. Salomone, Gabriela Zulma",
+    "materiaId": "PS-10365",
+    "materiaCode": 10365,
+    "materiaName": "PP: PP: Area Social Comunitaria: Derechos y Subjetividad: Intervenciones ético-clínicas"
   },
   {
     "id": "PS-584",
@@ -1221,17 +1221,6 @@
     "materiaName": "P.P.: P.P.: Área Social Comunitaria: Ámbito Comunitario Familia y Enfermedad Crónica"
   },
   {
-    "id": "PS-657",
-    "program": "PS",
-    "programName": "Licenciatura en Psicología",
-    "catedraId": 657,
-    "chairLabel": "",
-    "docenteTitular": "Lic. Sandoval, Arnaldo Martin",
-    "materiaId": "PS-0657",
-    "materiaCode": 657,
-    "materiaName": "P.P.: P.P.: Área Trabajo: Proceso de Reinserción Laboral"
-  },
-  {
     "id": "PS-639",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
@@ -1252,6 +1241,17 @@
     "materiaId": "PS-0033",
     "materiaCode": 33,
     "materiaName": "P.P.: P.P.: Área Social Comunitaria: Salud Mental y Desinstitucionalización"
+  },
+  {
+    "id": "PS-657",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "catedraId": 657,
+    "chairLabel": "",
+    "docenteTitular": "Lic. Sandoval, Arnaldo Martin",
+    "materiaId": "PS-0657",
+    "materiaCode": 657,
+    "materiaName": "P.P.: P.P.: Área Trabajo: Proceso de Reinserción Laboral"
   },
   {
     "id": "PS-687",
@@ -1331,17 +1331,6 @@
     "materiaName": "P.P.: P.P.: Área Clínica: Problemática Clínica en Niñez, Adolescencia y Familia"
   },
   {
-    "id": "PS-772",
-    "program": "PS",
-    "programName": "Licenciatura en Psicología",
-    "catedraId": 772,
-    "chairLabel": "",
-    "docenteTitular": "Lic. Rodriguez, Rafael Osvaldo",
-    "materiaId": "PS-10039",
-    "materiaCode": 10039,
-    "materiaName": "P.P.: P.P.: Área Clínica: Práctica Clínica en Anorexias, Bulimias y Obesidad"
-  },
-  {
     "id": "PS-779",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
@@ -1353,15 +1342,15 @@
     "materiaName": "P.P.: P.P.: Área Clínica: Una Perspectiva Antropológica en la Clínica"
   },
   {
-    "id": "PS-707",
+    "id": "PS-772",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
-    "catedraId": 707,
+    "catedraId": 772,
     "chairLabel": "",
-    "docenteTitular": "Lic. Coppola, Daniel Ricardo",
-    "materiaId": "PS-0707",
-    "materiaCode": 707,
-    "materiaName": "P.P.: P.P.: Área Social Comunitaria: Adicciones: Un Abordaje Clínico-Comunitario"
+    "docenteTitular": "Lic. Rodriguez, Rafael Osvaldo",
+    "materiaId": "PS-10039",
+    "materiaCode": 10039,
+    "materiaName": "P.P.: P.P.: Área Clínica: Práctica Clínica en Anorexias, Bulimias y Obesidad"
   },
   {
     "id": "PS-786",
@@ -1373,6 +1362,17 @@
     "materiaId": "PS-10058",
     "materiaCode": 10058,
     "materiaName": "P.P.: P.P.: Área Social Comunitaria: El Psicólogo en Centros de Atención Primaria: Un Enfoque Preventivo y Comunitario del Trabajo en Salud"
+  },
+  {
+    "id": "PS-707",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "catedraId": 707,
+    "chairLabel": "",
+    "docenteTitular": "Lic. Coppola, Daniel Ricardo",
+    "materiaId": "PS-0707",
+    "materiaCode": 707,
+    "materiaName": "P.P.: P.P.: Área Social Comunitaria: Adicciones: Un Abordaje Clínico-Comunitario"
   },
   {
     "id": "PS-788",
@@ -1419,17 +1419,6 @@
     "materiaName": "P.P.: P.P.: Area Clinica: Clínica de los transtornos de la personalidad y las psicosis"
   },
   {
-    "id": "PS-805",
-    "program": "PS",
-    "programName": "Licenciatura en Psicología",
-    "catedraId": 805,
-    "chairLabel": "I",
-    "docenteTitular": "Lic. Morao, Marisa",
-    "materiaId": "PS-10211",
-    "materiaCode": 10211,
-    "materiaName": "P.P.: P.P.: Area Social Comunitaria: Violencia. Modos de intervención en los dispositivos clinicos y socio comunitarios"
-  },
-  {
     "id": "PS-817",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
@@ -1441,15 +1430,15 @@
     "materiaName": "P.P.: P.P.: Area Clínica: Abordaje de las patologías del acto: La clínica en los bordes"
   },
   {
-    "id": "PS-822",
+    "id": "PS-805",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
-    "catedraId": 822,
+    "catedraId": 805,
     "chairLabel": "I",
-    "docenteTitular": "Prof. Iuale, Maria Lujan",
-    "materiaId": "PS-10237",
-    "materiaCode": 10237,
-    "materiaName": "P.P.: P.P.: Area Clinica: El tratamiento del padecimiento subjetivo en la experiencia analítica"
+    "docenteTitular": "Lic. Morao, Marisa",
+    "materiaId": "PS-10211",
+    "materiaCode": 10211,
+    "materiaName": "P.P.: P.P.: Area Social Comunitaria: Violencia. Modos de intervención en los dispositivos clinicos y socio comunitarios"
   },
   {
     "id": "PS-824",
@@ -1461,6 +1450,17 @@
     "materiaId": "PS-10239",
     "materiaCode": 10239,
     "materiaName": "P.P.: P.P.: Area Clínica: El rol del psicólogo en el ámbito de las tecnologías de la reproducción humana asistida (TRHA"
+  },
+  {
+    "id": "PS-822",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "catedraId": 822,
+    "chairLabel": "I",
+    "docenteTitular": "Prof. Iuale, Maria Lujan",
+    "materiaId": "PS-10237",
+    "materiaCode": 10237,
+    "materiaName": "P.P.: P.P.: Area Clinica: El tratamiento del padecimiento subjetivo en la experiencia analítica"
   },
   {
     "id": "PS-842",
@@ -1551,17 +1551,6 @@
     "materiaName": "P.P: P.I.: Neurociencias del Comportamiento: aproximaciones a los Métodos Psicofisiológicos"
   },
   {
-    "id": "PS-862",
-    "program": "PS",
-    "programName": "Licenciatura en Psicología",
-    "catedraId": 862,
-    "chairLabel": "I",
-    "docenteTitular": "Prof. Alomo, Martin Carlos",
-    "materiaId": "PS-10354",
-    "materiaCode": 10354,
-    "materiaName": "P.P.: P.P.: Area Clínica: Clínica Analítica de las Psicosis"
-  },
-  {
     "id": "PS-819",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
@@ -1571,6 +1560,17 @@
     "materiaId": "PS-10235",
     "materiaCode": 10235,
     "materiaName": "P.P.: P.I.: Evaluación Psicológica en Contexto"
+  },
+  {
+    "id": "PS-862",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "catedraId": 862,
+    "chairLabel": "I",
+    "docenteTitular": "Prof. Alomo, Martin Carlos",
+    "materiaId": "PS-10354",
+    "materiaCode": 10354,
+    "materiaName": "P.P.: P.P.: Area Clínica: Clínica Analítica de las Psicosis"
   },
   {
     "id": "PS-845",
@@ -1584,17 +1584,6 @@
     "materiaName": "P.P: P.I.: Práctica de Investigación en Psicología del Envejecimiento"
   },
   {
-    "id": "PS-849",
-    "program": "PS",
-    "programName": "Licenciatura en Psicología",
-    "catedraId": 849,
-    "chairLabel": "",
-    "docenteTitular": "Lic. Lima, Natacha Salome",
-    "materiaId": "PS-10335",
-    "materiaCode": 10335,
-    "materiaName": "P.P.:P.I.: Bioética en Instituciones de Salud"
-  },
-  {
     "id": "PS-856",
     "program": "PS",
     "programName": "Licenciatura en Psicología",
@@ -1604,6 +1593,17 @@
     "materiaId": "PS-10346",
     "materiaCode": 10346,
     "materiaName": "P.P:P.I.: Investigación Clínica y Prevención en los tiempos de la Primera Infancia"
+  },
+  {
+    "id": "PS-849",
+    "program": "PS",
+    "programName": "Licenciatura en Psicología",
+    "catedraId": 849,
+    "chairLabel": "",
+    "docenteTitular": "Lic. Lima, Natacha Salome",
+    "materiaId": "PS-10335",
+    "materiaCode": 10335,
+    "materiaName": "P.P.:P.I.: Bioética en Instituciones de Salud"
   },
   {
     "id": "PR-902",
@@ -1683,17 +1683,6 @@
     "materiaName": "Técnicas Corporales"
   },
   {
-    "id": "LM-298",
-    "program": "LM",
-    "programName": "Licenciatura en Musicoterapia",
-    "catedraId": 298,
-    "chairLabel": "",
-    "docenteTitular": "Prof. Politis, Daniel Gustavo",
-    "materiaId": "LM-0398",
-    "materiaCode": 398,
-    "materiaName": "Neurofisiopatología"
-  },
-  {
     "id": "LM-296",
     "program": "LM",
     "programName": "Licenciatura en Musicoterapia",
@@ -1714,6 +1703,17 @@
     "materiaId": "LM-0397",
     "materiaCode": 397,
     "materiaName": "Sociedad e Instituciones"
+  },
+  {
+    "id": "LM-298",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "catedraId": 298,
+    "chairLabel": "",
+    "docenteTitular": "Prof. Politis, Daniel Gustavo",
+    "materiaId": "LM-0398",
+    "materiaCode": 398,
+    "materiaName": "Neurofisiopatología"
   },
   {
     "id": "LM-299",
@@ -1826,17 +1826,6 @@
     "materiaName": "Musicoterapia en el Àmbito Educativo"
   },
   {
-    "id": "LM-310",
-    "program": "LM",
-    "programName": "Licenciatura en Musicoterapia",
-    "catedraId": 310,
-    "chairLabel": "",
-    "docenteTitular": "Lic. A designar",
-    "materiaId": "LM-10006",
-    "materiaCode": 10006,
-    "materiaName": "Audioperceptiva Aplicada II"
-  },
-  {
     "id": "LM-311",
     "program": "LM",
     "programName": "Licenciatura en Musicoterapia",
@@ -1846,6 +1835,17 @@
     "materiaId": "LM-10005",
     "materiaCode": 10005,
     "materiaName": "Escuelas Psicológicas Contemporáneas"
+  },
+  {
+    "id": "LM-310",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "catedraId": 310,
+    "chairLabel": "",
+    "docenteTitular": "Lic. A designar",
+    "materiaId": "LM-10006",
+    "materiaCode": 10006,
+    "materiaName": "Audioperceptiva Aplicada II"
   },
   {
     "id": "LM-312",
@@ -1925,17 +1925,6 @@
     "materiaName": "Seminario: Musicoterapia en el Àmbito Hospitalario"
   },
   {
-    "id": "LM-319",
-    "program": "LM",
-    "programName": "Licenciatura en Musicoterapia",
-    "catedraId": 319,
-    "chairLabel": "",
-    "docenteTitular": "Mtp. Eiriz, Claudio",
-    "materiaId": "LM-10014",
-    "materiaCode": 10014,
-    "materiaName": "Seminario: Tecnología e Informática Aplicada a Musicoterapia"
-  },
-  {
     "id": "LM-320",
     "program": "LM",
     "programName": "Licenciatura en Musicoterapia",
@@ -1947,15 +1936,15 @@
     "materiaName": "Seminario Gestión y Organización del Equipo Interdisciplinario de Salud"
   },
   {
-    "id": "LM-328",
+    "id": "LM-319",
     "program": "LM",
     "programName": "Licenciatura en Musicoterapia",
-    "catedraId": 328,
+    "catedraId": 319,
     "chairLabel": "",
-    "docenteTitular": "Prof. Ferrari, Karina Daniela",
-    "materiaId": "LM-10000",
-    "materiaCode": 10000,
-    "materiaName": "Musicoterapia II"
+    "docenteTitular": "Mtp. Eiriz, Claudio",
+    "materiaId": "LM-10014",
+    "materiaCode": 10014,
+    "materiaName": "Seminario: Tecnología e Informática Aplicada a Musicoterapia"
   },
   {
     "id": "LM-321",
@@ -1967,6 +1956,17 @@
     "materiaId": "LM-10016",
     "materiaCode": 10016,
     "materiaName": "Taller: Ética Profesional y Derechos Humanos"
+  },
+  {
+    "id": "LM-328",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "catedraId": 328,
+    "chairLabel": "",
+    "docenteTitular": "Prof. Ferrari, Karina Daniela",
+    "materiaId": "LM-10000",
+    "materiaCode": 10000,
+    "materiaName": "Musicoterapia II"
   },
   {
     "id": "LM-329",
@@ -1991,15 +1991,15 @@
     "materiaName": "Práctica Profesional. Módulo I: Area Clínica"
   },
   {
-    "id": "LM-331",
+    "id": "LM-334",
     "program": "LM",
     "programName": "Licenciatura en Musicoterapia",
-    "catedraId": 331,
+    "catedraId": 334,
     "chairLabel": "",
-    "docenteTitular": "Prof. Coluccio, Andrea Graciela",
-    "materiaId": "LM-10244",
-    "materiaCode": 10244,
-    "materiaName": "Práctica Profesional. Módulo II: Area Clínica"
+    "docenteTitular": "Prof. Rodriguez, Maria Fernanda",
+    "materiaId": "LM-10247",
+    "materiaCode": 10247,
+    "materiaName": "Práctica Profesional. Módulo I: Area Emergente"
   },
   {
     "id": "LM-332",
@@ -2013,6 +2013,17 @@
     "materiaName": "Práctica Profesional. Módulo I: Area Educacional"
   },
   {
+    "id": "LM-331",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "catedraId": 331,
+    "chairLabel": "",
+    "docenteTitular": "Prof. Coluccio, Andrea Graciela",
+    "materiaId": "LM-10244",
+    "materiaCode": 10244,
+    "materiaName": "Práctica Profesional. Módulo II: Area Clínica"
+  },
+  {
     "id": "LM-333",
     "program": "LM",
     "programName": "Licenciatura en Musicoterapia",
@@ -2024,17 +2035,6 @@
     "materiaName": "Práctica Profesional. Módulo II: Area Educacional"
   },
   {
-    "id": "LM-334",
-    "program": "LM",
-    "programName": "Licenciatura en Musicoterapia",
-    "catedraId": 334,
-    "chairLabel": "",
-    "docenteTitular": "Prof. Rodriguez, Maria Fernanda",
-    "materiaId": "LM-10247",
-    "materiaCode": 10247,
-    "materiaName": "Práctica Profesional. Módulo I: Area Emergente"
-  },
-  {
     "id": "LM-335",
     "program": "LM",
     "programName": "Licenciatura en Musicoterapia",
@@ -2044,6 +2044,17 @@
     "materiaId": "LM-10248",
     "materiaCode": 10248,
     "materiaName": "Práctica Profesional. Módulo II: Area Emergente"
+  },
+  {
+    "id": "LM-838",
+    "program": "LM",
+    "programName": "Licenciatura en Musicoterapia",
+    "catedraId": 838,
+    "chairLabel": "I",
+    "docenteTitular": "Prof. Miñones, Laura",
+    "materiaId": "LM-10316",
+    "materiaCode": 10316,
+    "materiaName": "Requisito Idioma: Francés Módulo I"
   },
   {
     "id": "LM-835",
@@ -2066,17 +2077,6 @@
     "materiaId": "LM-10314",
     "materiaCode": 10314,
     "materiaName": "Requisito Idioma: Inglés Módulo II"
-  },
-  {
-    "id": "LM-838",
-    "program": "LM",
-    "programName": "Licenciatura en Musicoterapia",
-    "catedraId": 838,
-    "chairLabel": "I",
-    "docenteTitular": "Prof. Miñones, Laura",
-    "materiaId": "LM-10316",
-    "materiaCode": 10316,
-    "materiaName": "Requisito Idioma: Francés Módulo I"
   },
   {
     "id": "LM-839",
@@ -2178,6 +2178,17 @@
     "materiaName": "Teoría y Técnica de Terapia Ocupacional II"
   },
   {
+    "id": "TE-409",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "catedraId": 409,
+    "chairLabel": "",
+    "docenteTitular": "Prof. Calb, Alejandro",
+    "materiaId": "TE-0184",
+    "materiaCode": 184,
+    "materiaName": "Clínica Médica y Neurología"
+  },
+  {
     "id": "TE-407",
     "program": "TE",
     "programName": "Licenciatura en Terapia Ocupacional",
@@ -2198,17 +2209,6 @@
     "materiaId": "TE-0183",
     "materiaCode": 183,
     "materiaName": "Psicología de los Ciclos Vitales II"
-  },
-  {
-    "id": "TE-409",
-    "program": "TE",
-    "programName": "Licenciatura en Terapia Ocupacional",
-    "catedraId": 409,
-    "chairLabel": "",
-    "docenteTitular": "Prof. Calb, Alejandro",
-    "materiaId": "TE-0184",
-    "materiaCode": 184,
-    "materiaName": "Clínica Médica y Neurología"
   },
   {
     "id": "TE-410",
@@ -2299,6 +2299,17 @@
     "materiaName": "La Ocupación y su Proceso III"
   },
   {
+    "id": "TE-417",
+    "program": "TE",
+    "programName": "Licenciatura en Terapia Ocupacional",
+    "catedraId": 417,
+    "chairLabel": "",
+    "docenteTitular": "Lic. A designar",
+    "materiaId": "TE-0214",
+    "materiaCode": 214,
+    "materiaName": "Práctica Profesional III"
+  },
+  {
     "id": "TE-415",
     "program": "TE",
     "programName": "Licenciatura en Terapia Ocupacional",
@@ -2319,17 +2330,6 @@
     "materiaId": "TE-0217",
     "materiaCode": 217,
     "materiaName": "Metodología de la Investigación y Estadística"
-  },
-  {
-    "id": "TE-417",
-    "program": "TE",
-    "programName": "Licenciatura en Terapia Ocupacional",
-    "catedraId": 417,
-    "chairLabel": "",
-    "docenteTitular": "Lic. A designar",
-    "materiaId": "TE-0214",
-    "materiaCode": 214,
-    "materiaName": "Práctica Profesional III"
   },
   {
     "id": "TE-421",

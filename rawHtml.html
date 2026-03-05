@@ -1,0 +1,1598 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+
+	<title>
+		Sistema acad&eacute;mico - Facultad de Psicolog&iacute;a - UBA	
+	</title>
+	<!-- Fonts Awesome -->
+	<script src="https://kit.fontawesome.com/e70929b697.js" crossorigin="anonymous"></script>
+
+	<!-- Fuentes -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Serif 4" />
+
+	<!-- Bootstrap -->
+	<link href="/assets/bootstrap/css/bootstrap5.min.css" rel="stylesheet" />
+	<script type="text/javascript" src="/assets/bootstrap/js/bootstrap5.min.js"></script>
+	<link href="/sistemaacademico/app/webroot/favicon.ico" type="image/x-icon" rel="icon" />
+	<link href="/sistemaacademico/app/webroot/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+	<!-- <link rel="stylesheet" type="text/css" href="/sistemaacademico/app/webroot/css/delfin.css" /> -->
+	<link rel="stylesheet" type="text/css" href="/sistemaacademico/app/webroot/css/delfin2.css" />
+	<link rel="stylesheet" type="text/css" href="/sistemaacademico/app/webroot/css/jquery-ui.css" />
+	<link rel="stylesheet" type="text/css" href="/assets/SistemaAcademico/css/estilos.css" />
+
+	<script type="text/javascript" src="/sistemaacademico/app/webroot/js/jquery.js"></script>
+	<script type="text/javascript" src="/sistemaacademico/app/webroot/js/autocomplete.js"></script>
+	<script type="text/javascript" src="/sistemaacademico/app/webroot/js/catlinks.js"></script>
+	<script type="text/javascript" src="/sistemaacademico/app/webroot/js/common.js"></script>
+	<script type="text/javascript" src="/sistemaacademico/app/webroot/js/common_acp.js"></script>
+	<script type="text/javascript" src="/sistemaacademico/app/webroot/js/fcbkcomplete.js"></script>
+	<script type="text/javascript" src="/sistemaacademico/app/webroot/js/global.js"></script>
+	<script type="text/javascript" src="/sistemaacademico/app/webroot/js/jquery.json.js"></script>
+	<script type="text/javascript" src="/sistemaacademico/app/webroot/js/jquery.menu.js"></script>
+	<script type="text/javascript" src="/sistemaacademico/app/webroot/js/jquery.metadata.js"></script>
+	<script type="text/javascript" src="/sistemaacademico/app/webroot/js/jquery.rating.js"></script>
+	<script type="text/javascript" src="/sistemaacademico/app/webroot/js/jquery.scrollto.js"></script>
+	<script type="text/javascript" src="/sistemaacademico/app/webroot/js/jqueryextras.js"></script>
+	<script type="text/javascript" src="/sistemaacademico/app/webroot/js/jquery-ui.js"></script>
+	<script type="text/javascript" src="/sistemaacademico/app/webroot/js/livevalidation.js"></script>
+	<script type="text/javascript" src="/sistemaacademico/app/webroot/js/navlinks.js"></script>
+	
+	
+	<script type="text/javascript" src="/sistemaacademico/app/webroot/js/jquery.ui.tabs.js"></script>
+	<script src="/sistemaacademico/app/webroot/js/jquery.ui.core.js"></script>
+	<link href="/sistemaacademico/app/webroot/js/themes/base/jquery.ui.all.css" rel="stylesheet"/>
+	<script type="text/javascript" src="/sistemaacademico/app/webroot/js/popup.js"></script>
+
+	</head>
+
+<body>
+	<div id="navwrap1" class='noprint'>
+	<div id="navbar1">
+	<!-- Navigation title -->
+	<ul id="navlinkstitle">
+		<div>
+			<a title="UBA-PSI" href="/Psi/../index.php">
+				<img height="35" class="logoPsi" style="vertical-align: middle; max-height: 35px;" alt="PSI" src="/sistemaacademico/images/logo-psi-nuevo.png">
+			</a>
+		</div>
+	</ul>
+	</div>
+				
+		<div style="clear:both"></div>
+		</div><div id="ajax_loading"><p>Cargando...</p></div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".specialbutton").hover(function(){
+                $(".specialbutton img")
+                .animate({top:"-10px"}, 200).animate({top:"-4px"}, 200) // first jump
+                .animate({top:"-7px"}, 100).animate({top:"-4px"}, 100) // second jump
+                .animate({top:"-6px"}, 100).animate({top:"-4px"}, 100); // the last jump
+            });
+        }); 
+    </script>
+<style>
+.specialbutton {
+	font-family: Lucida Grande,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    padding: 6px 10px 6px 14px;
+	border-radius:4px;
+	background-color: #edecec;
+    /* border: solid 1px #FFF; */
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    /* background-image: url( '/sistemaacademico/images/catbar_bkg.png' ); */
+    /* background-repeat: repeat-x; */
+    font-size: 11px;
+    height: 16px;
+    text-decoration: none;
+    color: #861f5c;
+    -moz-border-radius-bottomleft: 4px;
+    -moz-border-radius-bottomright: 4px;
+    -moz-border-radius-topleft: 4px;
+    -moz-border-radius-topright: 4px;
+	top:2px;
+	right:2px;
+}
+.specialbutton img {
+    position: absolute;
+    top: -4px;
+    left: -12px;
+    border: none;
+}
+.specialbutton:hover {
+	font-family: Lucida Grande,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+	background-color: #e7e7e7;
+}  
+</style>
+<div id="content" ><!-- For ajax paginator -->
+	<div id="tdcontent">
+   				
+				<!-- END LEFT SIDE -->
+		
+		
+		<!-- RIGHT SIDE -->
+		<div id="coremain">
+			<!-- Main content -->
+			<div id="ticketroll">
+			
+			
+<div style="float:right; padding:2px" class='noprint' >		
+
+
+	
+	<a class="specialbutton" href="../index_.php">
+	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAAtJREFUGFdjYAACAAAFAAGq1chRAAAAAElFTkSuQmCC" alt="" border=0/><strong>Volver&nbsp;</strong>
+	</a>
+		
+
+</div>				
+	
+
+				<div class="groupbox">
+					Horarios a cursos  2026 / 1  				</div>
+				
+				
+
+				
+				<div class="rollhistory">
+
+<style>#coreright {display:none; width:100%;} .rolldefault, .rollhistory {background: none;}</style>
+<div class="div_tabs">
+<div id="tdcontent">
+
+	<!-- LEFT SIDE -->
+	<div id="coremain">
+				<!-- Main content -->
+		<div id="ticketroll"  style="float:left;width: 904px;min-width:904px;">
+	
+			<div id="lice2" class="rolldefault" >
+			<div id="tabs">
+			<ul>			
+<li><a href="#PS">Licenciatura en Psicología</a></li><li><a href="#PR">Profesorado en Psicología</a></li><li><a href="#LM">Licenciatura en Musicoterapia</a></li><li><a href="#TE">Licenciatura en Terapia Ocupacional</a></li></ul><div id="LM" ><table class='table_tabs' > <tr>
+					<th>&nbsp;Cat</th>
+					<th>&nbsp;Materia</th>
+					<th colspan=2>&nbsp;Cátedra</th>
+				   </tr><tr>
+			<td><a href="Ver154_.php?catedra=293">
+          		<center>293</rigth></td>
+          		<td><a href="Ver154_.php?catedra=293">Musicoterapia I</a></td>
+           		<td><a href="Ver154_.php?catedra=293"> - Lic. Zimbaldo, Ariel Marcelo<br></a></td>
+			<td><a href="Ver154_.php?catedra=293">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=294">
+          		<center>294</rigth></td>
+          		<td><a href="Ver154_.php?catedra=294">Taller de Instrumentos Aerófonos</a></td>
+           		<td><a href="Ver154_.php?catedra=294"> - Lic. Perea, Ximena<br></a></td>
+			<td><a href="Ver154_.php?catedra=294">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=295">
+          		<center>295</rigth></td>
+          		<td><a href="Ver154_.php?catedra=295">Técnicas Corporales</a></td>
+           		<td><a href="Ver154_.php?catedra=295"> - Prof. Fermani, Andrea Amalia<br></a></td>
+			<td><a href="Ver154_.php?catedra=295">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=296">
+          		<center>296</rigth></td>
+          		<td><a href="Ver154_.php?catedra=296">Psicología del Ciclo Vital I</a></td>
+           		<td><a href="Ver154_.php?catedra=296"> - Lic. Quattrocchi, Paula Raquel<br></a></td>
+			<td><a href="Ver154_.php?catedra=296">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=297">
+          		<center>297</rigth></td>
+          		<td><a href="Ver154_.php?catedra=297">Sociedad e Instituciones</a></td>
+           		<td><a href="Ver154_.php?catedra=297"> - Prof. Vodovotz, Gabriel Sergio<br></a></td>
+			<td><a href="Ver154_.php?catedra=297">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=298">
+          		<center>298</rigth></td>
+          		<td><a href="Ver154_.php?catedra=298">Neurofisiopatología</a></td>
+           		<td><a href="Ver154_.php?catedra=298"> - Prof. Politis, Daniel Gustavo<br></a></td>
+			<td><a href="Ver154_.php?catedra=298">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=299">
+          		<center>299</rigth></td>
+          		<td><a href="Ver154_.php?catedra=299">Técnica Vocal I</a></td>
+           		<td><a href="Ver154_.php?catedra=299"> - Dra. Sacheri, Soledad Maria Constan<br></a></td>
+			<td><a href="Ver154_.php?catedra=299">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=300">
+          		<center>300</rigth></td>
+          		<td><a href="Ver154_.php?catedra=300">Neuropsicopatología</a></td>
+           		<td><a href="Ver154_.php?catedra=300"> - Prof. Politis, Daniel Gustavo<br></a></td>
+			<td><a href="Ver154_.php?catedra=300">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=301">
+          		<center>301</rigth></td>
+          		<td><a href="Ver154_.php?catedra=301">Teoría y Técnica de Grupos</a></td>
+           		<td><a href="Ver154_.php?catedra=301"> - Dr. Jaume, Luis Carlos<br></a></td>
+			<td><a href="Ver154_.php?catedra=301">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=302">
+          		<center>302</rigth></td>
+          		<td><a href="Ver154_.php?catedra=302">Psicología del Ciclo Vital II</a></td>
+           		<td><a href="Ver154_.php?catedra=302"> - Prof. Saavedra, Maria Eugenia<br></a></td>
+			<td><a href="Ver154_.php?catedra=302">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=303">
+          		<center>303</rigth></td>
+          		<td><a href="Ver154_.php?catedra=303">Taller de Guitarra</a></td>
+           		<td><a href="Ver154_.php?catedra=303"> - Prof. Feferovich, Sergio Eduardo<br></a></td>
+			<td><a href="Ver154_.php?catedra=303">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=304">
+          		<center>304</rigth></td>
+          		<td><a href="Ver154_.php?catedra=304">Psicopatología</a></td>
+           		<td><a href="Ver154_.php?catedra=304"> - Prof. Sotelo, Maria Ines De La Milag<br></a></td>
+			<td><a href="Ver154_.php?catedra=304">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=306">
+          		<center>306</rigth></td>
+          		<td><a href="Ver154_.php?catedra=306">Técnica Vocal II</a></td>
+           		<td><a href="Ver154_.php?catedra=306"> - Lic. A designar<br></a></td>
+			<td><a href="Ver154_.php?catedra=306">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=307">
+          		<center>307</rigth></td>
+          		<td><a href="Ver154_.php?catedra=307">Audioperceptiva Aplicada I</a></td>
+           		<td><a href="Ver154_.php?catedra=307"> - Prof. Barnaba, Elizabeth Dalila Rosa<br></a></td>
+			<td><a href="Ver154_.php?catedra=307">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=308">
+          		<center>308</rigth></td>
+          		<td><a href="Ver154_.php?catedra=308">Taller de Instrumentos de Percusión</a></td>
+           		<td><a href="Ver154_.php?catedra=308"> - Lic. Crespino, Claudio Daniel<br></a></td>
+			<td><a href="Ver154_.php?catedra=308">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=309">
+          		<center>309</rigth></td>
+          		<td><a href="Ver154_.php?catedra=309">Musicoterapia en el Àmbito Educativo</a></td>
+           		<td><a href="Ver154_.php?catedra=309"> - Prof. Ruiz, Maria Mercedes<br></a></td>
+			<td><a href="Ver154_.php?catedra=309">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=310">
+          		<center>310</rigth></td>
+          		<td><a href="Ver154_.php?catedra=310">Audioperceptiva Aplicada II</a></td>
+           		<td><a href="Ver154_.php?catedra=310"> - Lic. A designar<br></a></td>
+			<td><a href="Ver154_.php?catedra=310">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=311">
+          		<center>311</rigth></td>
+          		<td><a href="Ver154_.php?catedra=311">Escuelas Psicológicas Contemporáneas</a></td>
+           		<td><a href="Ver154_.php?catedra=311"> - Prof. Miceli, Claudio Marcelo<br></a></td>
+			<td><a href="Ver154_.php?catedra=311">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=312">
+          		<center>312</rigth></td>
+          		<td><a href="Ver154_.php?catedra=312">Musicoterapia, Comunicación y Discapacidad</a></td>
+           		<td><a href="Ver154_.php?catedra=312"> - Prof. Alperovich, Natalia Judith<br></a></td>
+			<td><a href="Ver154_.php?catedra=312">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=313">
+          		<center>313</rigth></td>
+          		<td><a href="Ver154_.php?catedra=313">Estadística y Metodología de la Investigación</a></td>
+           		<td><a href="Ver154_.php?catedra=313"> - Prof. Justel, Nadia Romina<br></a></td>
+			<td><a href="Ver154_.php?catedra=313">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=314">
+          		<center>314</rigth></td>
+          		<td><a href="Ver154_.php?catedra=314">Antropología de la Música</a></td>
+           		<td><a href="Ver154_.php?catedra=314"> - Lic. Biegun, Karin Sandra<br></a></td>
+			<td><a href="Ver154_.php?catedra=314">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=315">
+          		<center>315</rigth></td>
+          		<td><a href="Ver154_.php?catedra=315">Musicoterapia III</a></td>
+           		<td><a href="Ver154_.php?catedra=315">I - Lic. Gentili, Sebastian<br></a></td>
+			<td><a href="Ver154_.php?catedra=315">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=316">
+          		<center>316</rigth></td>
+          		<td><a href="Ver154_.php?catedra=316">Musicoterapia en Salud Mental</a></td>
+           		<td><a href="Ver154_.php?catedra=316"> - Prof. Ojeda, Ramon Antonio<br></a></td>
+			<td><a href="Ver154_.php?catedra=316">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=317">
+          		<center>317</rigth></td>
+          		<td><a href="Ver154_.php?catedra=317">Grupo de Improvisación en Musicoterapia</a></td>
+           		<td><a href="Ver154_.php?catedra=317"> - Lic. Martinez, Judith Del Valle<br></a></td>
+			<td><a href="Ver154_.php?catedra=317">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=318">
+          		<center>318</rigth></td>
+          		<td><a href="Ver154_.php?catedra=318">Seminario: Musicoterapia en el Àmbito Hospitalario</a></td>
+           		<td><a href="Ver154_.php?catedra=318"> - Lic. Santesteban, Selva Susana<br></a></td>
+			<td><a href="Ver154_.php?catedra=318">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=319">
+          		<center>319</rigth></td>
+          		<td><a href="Ver154_.php?catedra=319">Seminario: Tecnología e Informática Aplicada a Musicoterapia</a></td>
+           		<td><a href="Ver154_.php?catedra=319"> - Mtp. Eiriz, Claudio<br></a></td>
+			<td><a href="Ver154_.php?catedra=319">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=320">
+          		<center>320</rigth></td>
+          		<td><a href="Ver154_.php?catedra=320">Seminario Gestión y Organización del Equipo Interdisciplinario de Sa</a></td>
+           		<td><a href="Ver154_.php?catedra=320"> - Lic. A designar<br></a></td>
+			<td><a href="Ver154_.php?catedra=320">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=321">
+          		<center>321</rigth></td>
+          		<td><a href="Ver154_.php?catedra=321">Taller: Ética Profesional  y Derechos Humanos</a></td>
+           		<td><a href="Ver154_.php?catedra=321"> - Prof. Luzzi, Silvina Gabriela<br></a></td>
+			<td><a href="Ver154_.php?catedra=321">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=328">
+          		<center>328</rigth></td>
+          		<td><a href="Ver154_.php?catedra=328">Musicoterapia II</a></td>
+           		<td><a href="Ver154_.php?catedra=328"> - Prof. Ferrari, Karina Daniela<br></a></td>
+			<td><a href="Ver154_.php?catedra=328">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=329">
+          		<center>329</rigth></td>
+          		<td><a href="Ver154_.php?catedra=329">Curso de Formación Musical</a></td>
+           		<td><a href="Ver154_.php?catedra=329"> - Prof. Zimbaldo, Ariel Marcelo<br></a></td>
+			<td><a href="Ver154_.php?catedra=329">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=330">
+          		<center>330</rigth></td>
+          		<td><a href="Ver154_.php?catedra=330">Práctica Profesional. Módulo I: Area Clínica</a></td>
+           		<td><a href="Ver154_.php?catedra=330"> - Lic. Vizzolini, Leandro Martín<br></a></td>
+			<td><a href="Ver154_.php?catedra=330">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=331">
+          		<center>331</rigth></td>
+          		<td><a href="Ver154_.php?catedra=331">Práctica Profesional. Módulo II: Area Clínica</a></td>
+           		<td><a href="Ver154_.php?catedra=331"> - Prof. Coluccio, Andrea Graciela<br></a></td>
+			<td><a href="Ver154_.php?catedra=331">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=332">
+          		<center>332</rigth></td>
+          		<td><a href="Ver154_.php?catedra=332">Práctica Profesional. Módulo I: Area Educacional</a></td>
+           		<td><a href="Ver154_.php?catedra=332"> - Prof. Ruiz, Maria Mercedes<br></a></td>
+			<td><a href="Ver154_.php?catedra=332">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=333">
+          		<center>333</rigth></td>
+          		<td><a href="Ver154_.php?catedra=333">Práctica Profesional. Módulo II: Area Educacional</a></td>
+           		<td><a href="Ver154_.php?catedra=333"> - Prof. Paladino, Paola Karina<br></a></td>
+			<td><a href="Ver154_.php?catedra=333">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=334">
+          		<center>334</rigth></td>
+          		<td><a href="Ver154_.php?catedra=334">Práctica Profesional. Módulo I: Area Emergente</a></td>
+           		<td><a href="Ver154_.php?catedra=334"> - Prof. Rodriguez, Maria Fernanda<br></a></td>
+			<td><a href="Ver154_.php?catedra=334">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=335">
+          		<center>335</rigth></td>
+          		<td><a href="Ver154_.php?catedra=335">Práctica Profesional. Módulo II: Area Emergente</a></td>
+           		<td><a href="Ver154_.php?catedra=335"> - Prof. Vidret, Norberto Marcos<br></a></td>
+			<td><a href="Ver154_.php?catedra=335">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=835">
+          		<center>835</rigth></td>
+          		<td><a href="Ver154_.php?catedra=835">Requisito Idioma: Inglés Módulo I</a></td>
+           		<td><a href="Ver154_.php?catedra=835">I - Prof. Mazzei, Ruben Daniel<br></a></td>
+			<td><a href="Ver154_.php?catedra=835">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=836">
+          		<center>836</rigth></td>
+          		<td><a href="Ver154_.php?catedra=836">Requisito Idioma: Inglés Módulo II</a></td>
+           		<td><a href="Ver154_.php?catedra=836">I - Prof. Mazzei, Ruben Daniel<br></a></td>
+			<td><a href="Ver154_.php?catedra=836">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=838">
+          		<center>838</rigth></td>
+          		<td><a href="Ver154_.php?catedra=838">Requisito Idioma: Francés Módulo I</a></td>
+           		<td><a href="Ver154_.php?catedra=838">I - Prof. Miñones, Laura<br></a></td>
+			<td><a href="Ver154_.php?catedra=838">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=839">
+          		<center>839</rigth></td>
+          		<td><a href="Ver154_.php?catedra=839">Requisito Idioma: Francés Módulo II</a></td>
+           		<td><a href="Ver154_.php?catedra=839">I - Prof. Miñones, Laura<br></a></td>
+			<td><a href="Ver154_.php?catedra=839">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=853">
+          		<center>853</rigth></td>
+          		<td><a href="Ver154_.php?catedra=853">Requisito Idioma: Inglés Módulo I</a></td>
+           		<td><a href="Ver154_.php?catedra=853">II - Prof. Banfi, Cristina<br></a></td>
+			<td><a href="Ver154_.php?catedra=853">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=854">
+          		<center>854</rigth></td>
+          		<td><a href="Ver154_.php?catedra=854">Requisito Idioma: Inglés Módulo II</a></td>
+           		<td><a href="Ver154_.php?catedra=854">II - Prof. Banfi, Cristina<br></a></td>
+			<td><a href="Ver154_.php?catedra=854">Ver</a></font></td>
+			</tr></table></div><div id="PR" ><table class="table_tabs"><tr>
+					<th>&nbsp;Cat</th>
+					<th>&nbsp;Materia</th>
+					<th colspan=2>&nbsp;Cátedra</th>
+					
+				   </tr><tr>
+			<td><a href="Ver154_.php?catedra=901">
+          		<center>901</rigth></td>
+          		<td><a href="Ver154_.php?catedra=901">Teorías de la Educación y Sistema Educativo Argentino</a></td>
+           		<td><a href="Ver154_.php?catedra=901"> - Lic. Ruiz, Guillermo Ramon<br></a></td>
+			<td><a href="Ver154_.php?catedra=901">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=902">
+          		<center>902</rigth></td>
+          		<td><a href="Ver154_.php?catedra=902">Didáctica General</a></td>
+           		<td><a href="Ver154_.php?catedra=902"> - Lic. Molinari, Andrea Judith<br></a></td>
+			<td><a href="Ver154_.php?catedra=902">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=903">
+          		<center>903</rigth></td>
+          		<td><a href="Ver154_.php?catedra=903">Didáctica Especial de la Psicología</a></td>
+           		<td><a href="Ver154_.php?catedra=903"> - Lic. A designar<br></a></td>
+			<td><a href="Ver154_.php?catedra=903">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=904">
+          		<center>904</rigth></td>
+          		<td><a href="Ver154_.php?catedra=904">Didáctica Especial y Práctica de la Enseñanza</a></td>
+           		<td><a href="Ver154_.php?catedra=904"> - Lic. Garcia Labandal, Livia Beatriz<br></a></td>
+			<td><a href="Ver154_.php?catedra=904">Ver</a></font></td>
+			</tr></table></div><div id="PS" ><table class="table_tabs"><tr>
+					<th>&nbsp;Cat</th>
+					<th>&nbsp;Materia</th>
+					<th colspan=2>&nbsp;Cátedra</th>
+					
+				   </tr> 	<tr>
+		<td colspan=4><center>Ciclo de Formación General</center></td>
+		</tr><tr>
+			<td><a href="Ver154_.php?catedra=34">
+          		<center>34</rigth></td>
+          		<td><a href="Ver154_.php?catedra=34">Historia de la Psicología</a></td>
+           		<td><a href="Ver154_.php?catedra=34">II - Prof. Ibarra, Maria Florencia<br></a></td>
+			<td><a href="Ver154_.php?catedra=34">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=35">
+          		<center>35</rigth></td>
+          		<td><a href="Ver154_.php?catedra=35">Psicología Social</a></td>
+           		<td><a href="Ver154_.php?catedra=35">I - Prof. Vodovotz, Gabriel Sergio<br></a></td>
+			<td><a href="Ver154_.php?catedra=35">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=36">
+          		<center>36</rigth></td>
+          		<td><a href="Ver154_.php?catedra=36">Psicología Social</a></td>
+           		<td><a href="Ver154_.php?catedra=36">II - Prof. Zubieta, Elena<br></a></td>
+			<td><a href="Ver154_.php?catedra=36">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=37">
+          		<center>37</rigth></td>
+          		<td><a href="Ver154_.php?catedra=37">Psicopatología</a></td>
+           		<td><a href="Ver154_.php?catedra=37">I - Prof. Naparstek, Fabian Abraham<br></a></td>
+			<td><a href="Ver154_.php?catedra=37">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=38">
+          		<center>38</rigth></td>
+          		<td><a href="Ver154_.php?catedra=38">Psicopatología</a></td>
+           		<td><a href="Ver154_.php?catedra=38">II - Prof. Schejtman, Fabian Dario<br></a></td>
+			<td><a href="Ver154_.php?catedra=38">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=42">
+          		<center>42</rigth></td>
+          		<td><a href="Ver154_.php?catedra=42">Teoría y Técnica de Exploración y Diagnóstico Psicológico Módulo II</a></td>
+           		<td><a href="Ver154_.php?catedra=42">II - Lic. Vinue, Maria Andrea<br></a></td>
+			<td><a href="Ver154_.php?catedra=42">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=48">
+          		<center>48</rigth></td>
+          		<td><a href="Ver154_.php?catedra=48">Neurofisiología</a></td>
+           		<td><a href="Ver154_.php?catedra=48">I - Prof. China, Norma Nancy<br></a></td>
+			<td><a href="Ver154_.php?catedra=48">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=49">
+          		<center>49</rigth></td>
+          		<td><a href="Ver154_.php?catedra=49">Psicoanálisis Freud</a></td>
+           		<td><a href="Ver154_.php?catedra=49">I - Prof. Pino, Silvia Patricia<br></a></td>
+			<td><a href="Ver154_.php?catedra=49">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=50">
+          		<center>50</rigth></td>
+          		<td><a href="Ver154_.php?catedra=50">Psicoanálisis Freud</a></td>
+           		<td><a href="Ver154_.php?catedra=50">II - Prof. Laznik, David Alberto<br></a></td>
+			<td><a href="Ver154_.php?catedra=50">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=51">
+          		<center>51</rigth></td>
+          		<td><a href="Ver154_.php?catedra=51">Psicoanálisis: Escuela Inglesa</a></td>
+           		<td><a href="Ver154_.php?catedra=51">I - Prof. Eisenberg, Estela Sonia<br></a></td>
+			<td><a href="Ver154_.php?catedra=51">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=52">
+          		<center>52</rigth></td>
+          		<td><a href="Ver154_.php?catedra=52">Psicoanálisis: Escuela Inglesa</a></td>
+           		<td><a href="Ver154_.php?catedra=52">II - Prof. Freidin, Fabiana<br></a></td>
+			<td><a href="Ver154_.php?catedra=52">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=57">
+          		<center>57</rigth></td>
+          		<td><a href="Ver154_.php?catedra=57">Psicoanálisis: Escuela Francesa</a></td>
+           		<td><a href="Ver154_.php?catedra=57">I - Prof. OLASO, Juan De<br></a></td>
+			<td><a href="Ver154_.php?catedra=57">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=58">
+          		<center>58</rigth></td>
+          		<td><a href="Ver154_.php?catedra=58">Teoría y Técnica de Exploración y Diagnóstico Psicológico Módulo I</a></td>
+           		<td><a href="Ver154_.php?catedra=58">II - Prof. Castro Solano, Alejandro Alberto<br></a></td>
+			<td><a href="Ver154_.php?catedra=58">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=59">
+          		<center>59</rigth></td>
+          		<td><a href="Ver154_.php?catedra=59">Teoría y Técnica de Exploración y Diagnóstico Psicológico Módulo I</a></td>
+           		<td><a href="Ver154_.php?catedra=59">I - Prof. Mikulic, Isabel Maria<br></a></td>
+			<td><a href="Ver154_.php?catedra=59">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=60">
+          		<center>60</rigth></td>
+          		<td><a href="Ver154_.php?catedra=60">Estadística</a></td>
+           		<td><a href="Ver154_.php?catedra=60">I - Prof. Galibert, Maria Silvia<br></a></td>
+			<td><a href="Ver154_.php?catedra=60">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=61">
+          		<center>61</rigth></td>
+          		<td><a href="Ver154_.php?catedra=61">Metodología de la Investigación</a></td>
+           		<td><a href="Ver154_.php?catedra=61">I - Prof. Azzollini, Susana Celeste<br></a></td>
+			<td><a href="Ver154_.php?catedra=61">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=62">
+          		<center>62</rigth></td>
+          		<td><a href="Ver154_.php?catedra=62">Metodología de la Investigación</a></td>
+           		<td><a href="Ver154_.php?catedra=62">II - Prof. Ynoub, Roxana Cecilia<br></a></td>
+			<td><a href="Ver154_.php?catedra=62">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=63">
+          		<center>63</rigth></td>
+          		<td><a href="Ver154_.php?catedra=63">Teoría y Técnica de Grupos</a></td>
+           		<td><a href="Ver154_.php?catedra=63">I - Prof. A designar<br></a></td>
+			<td><a href="Ver154_.php?catedra=63">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=64">
+          		<center>64</rigth></td>
+          		<td><a href="Ver154_.php?catedra=64">Teoría y Técnica de Grupos</a></td>
+           		<td><a href="Ver154_.php?catedra=64">II - Prof. Rolon, Cintia Gisella<br></a></td>
+			<td><a href="Ver154_.php?catedra=64">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=65">
+          		<center>65</rigth></td>
+          		<td><a href="Ver154_.php?catedra=65">Salud Pública y Salud Mental</a></td>
+           		<td><a href="Ver154_.php?catedra=65">I - Prof. De Lellis, Martin<br></a></td>
+			<td><a href="Ver154_.php?catedra=65">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=66">
+          		<center>66</rigth></td>
+          		<td><a href="Ver154_.php?catedra=66">Salud Pública y Salud Mental</a></td>
+           		<td><a href="Ver154_.php?catedra=66">II - Prof. Tajer, Debora<br></a></td>
+			<td><a href="Ver154_.php?catedra=66">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=78">
+          		<center>78</rigth></td>
+          		<td><a href="Ver154_.php?catedra=78">Psicología Fenomenológica y Existencial</a></td>
+           		<td><a href="Ver154_.php?catedra=78">I - Prof. Muñoz, Pablo Diego<br></a></td>
+			<td><a href="Ver154_.php?catedra=78">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=80">
+          		<center>80</rigth></td>
+          		<td><a href="Ver154_.php?catedra=80">Psicología de la Tercera Edad y Vejez</a></td>
+           		<td><a href="Ver154_.php?catedra=80"> - Dr. Iacub, Ricardo<br></a></td>
+			<td><a href="Ver154_.php?catedra=80">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=82">
+          		<center>82</rigth></td>
+          		<td><a href="Ver154_.php?catedra=82">Psicodiagnóstico: Rorschach</a></td>
+           		<td><a href="Ver154_.php?catedra=82"> - Prof. Garcia, Ariana Gabriela<br></a></td>
+			<td><a href="Ver154_.php?catedra=82">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=87">
+          		<center>87</rigth></td>
+          		<td><a href="Ver154_.php?catedra=87">Problemas Sociológicos en Psicología</a></td>
+           		<td><a href="Ver154_.php?catedra=87"> - Prof. Ferrari, Liliana Edith<br></a></td>
+			<td><a href="Ver154_.php?catedra=87">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=89">
+          		<center>89</rigth></td>
+          		<td><a href="Ver154_.php?catedra=89">Problemas Antropológicos en Psicología</a></td>
+           		<td><a href="Ver154_.php?catedra=89"> - Prof. Montañez, Fernando Gabriel<br></a></td>
+			<td><a href="Ver154_.php?catedra=89">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=90">
+          		<center>90</rigth></td>
+          		<td><a href="Ver154_.php?catedra=90">Biología del Comportamiento</a></td>
+           		<td><a href="Ver154_.php?catedra=90"> - Prof. Muzio, Ruben Nestor<br></a></td>
+			<td><a href="Ver154_.php?catedra=90">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=96">
+          		<center>96</rigth></td>
+          		<td><a href="Ver154_.php?catedra=96">Problemas Filosóficos en Psicología</a></td>
+           		<td><a href="Ver154_.php?catedra=96"> - Prof. Allegro, Fabian Luis<br></a></td>
+			<td><a href="Ver154_.php?catedra=96">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=113">
+          		<center>113</rigth></td>
+          		<td><a href="Ver154_.php?catedra=113">Teoría y Técnica de Exploración y Diagnóstico Psicológico Módulo II</a></td>
+           		<td><a href="Ver154_.php?catedra=113">I - Prof. Febbraio, Andres<br></a></td>
+			<td><a href="Ver154_.php?catedra=113">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=118">
+          		<center>118</rigth></td>
+          		<td><a href="Ver154_.php?catedra=118">Historia de la Psicología</a></td>
+           		<td><a href="Ver154_.php?catedra=118">I - Prof. Borinsky, Marcela Patricia<br></a></td>
+			<td><a href="Ver154_.php?catedra=118">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=122">
+          		<center>122</rigth></td>
+          		<td><a href="Ver154_.php?catedra=122">Psicoanálisis: Escuela Francesa</a></td>
+           		<td><a href="Ver154_.php?catedra=122">II - Prof. Muñoz, Pablo Diego<br></a></td>
+			<td><a href="Ver154_.php?catedra=122">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=123">
+          		<center>123</rigth></td>
+          		<td><a href="Ver154_.php?catedra=123">Neurofisiología</a></td>
+           		<td><a href="Ver154_.php?catedra=123">II - Prof. Kufa, Maria Del Pilar<br></a></td>
+			<td><a href="Ver154_.php?catedra=123">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=167">
+          		<center>167</rigth></td>
+          		<td><a href="Ver154_.php?catedra=167">Estadística</a></td>
+           		<td><a href="Ver154_.php?catedra=167">II - Prof. Muiños, Roberto Daniel<br></a></td>
+			<td><a href="Ver154_.php?catedra=167">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=544">
+          		<center>544</rigth></td>
+          		<td><a href="Ver154_.php?catedra=544">Procesos Psicológicos Básicos</a></td>
+           		<td><a href="Ver154_.php?catedra=544">I - Prof. Gonzalez, Federico Faustino<br></a></td>
+			<td><a href="Ver154_.php?catedra=544">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=545">
+          		<center>545</rigth></td>
+          		<td><a href="Ver154_.php?catedra=545">Procesos Psicológicos Básicos</a></td>
+           		<td><a href="Ver154_.php?catedra=545">II - Prof. Bur, Felix Ricardo<br></a></td>
+			<td><a href="Ver154_.php?catedra=545">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=546">
+          		<center>546</rigth></td>
+          		<td><a href="Ver154_.php?catedra=546">Psicología del Aprendizaje</a></td>
+           		<td><a href="Ver154_.php?catedra=546">I - Prof. Barreiro, Alicia Viviana<br></a></td>
+			<td><a href="Ver154_.php?catedra=546">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=547">
+          		<center>547</rigth></td>
+          		<td><a href="Ver154_.php?catedra=547">Psicología del Aprendizaje</a></td>
+           		<td><a href="Ver154_.php?catedra=547">II - Prof. Fernandez Zalazar, Diana Conce<br></a></td>
+			<td><a href="Ver154_.php?catedra=547">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=553">
+          		<center>553</rigth></td>
+          		<td><a href="Ver154_.php?catedra=553">Psicología del Desarrollo: Niñez</a></td>
+           		<td><a href="Ver154_.php?catedra=553">I - Prof. A designar<br></a></td>
+			<td><a href="Ver154_.php?catedra=553">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=554">
+          		<center>554</rigth></td>
+          		<td><a href="Ver154_.php?catedra=554">Psicología del Desarrollo: Niñez</a></td>
+           		<td><a href="Ver154_.php?catedra=554">II - Prof. Sorgen, Eugenia<br></a></td>
+			<td><a href="Ver154_.php?catedra=554">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=555">
+          		<center>555</rigth></td>
+          		<td><a href="Ver154_.php?catedra=555">Psicología del Desarrollo: Adolescencia</a></td>
+           		<td><a href="Ver154_.php?catedra=555">I - Prof. A designar<br></a></td>
+			<td><a href="Ver154_.php?catedra=555">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=556">
+          		<center>556</rigth></td>
+          		<td><a href="Ver154_.php?catedra=556">Psicología del Desarrollo: Adolescencia</a></td>
+           		<td><a href="Ver154_.php?catedra=556">II - Prof. A designar<br></a></td>
+			<td><a href="Ver154_.php?catedra=556">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=780">
+          		<center>780</rigth></td>
+          		<td><a href="Ver154_.php?catedra=780">Análisis y Modificación de la Conducta</a></td>
+           		<td><a href="Ver154_.php?catedra=780"> - Prof. Dahab, Jose Norberto<br></a></td>
+			<td><a href="Ver154_.php?catedra=780">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=798">
+          		<center>798</rigth></td>
+          		<td><a href="Ver154_.php?catedra=798">Construcción de los Conceptos Psicoanalíticos</a></td>
+           		<td><a href="Ver154_.php?catedra=798"> - Prof. Cordoba, Maria De Los Angeles<br></a></td>
+			<td><a href="Ver154_.php?catedra=798">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=806">
+          		<center>806</rigth></td>
+          		<td><a href="Ver154_.php?catedra=806">Psicoanálisis: orientación lacaniana, clínica y escritura</a></td>
+           		<td><a href="Ver154_.php?catedra=806">I - Prof. Sotelo, Maria Ines De La Milag<br></a></td>
+			<td><a href="Ver154_.php?catedra=806">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=810">
+          		<center>810</rigth></td>
+          		<td><a href="Ver154_.php?catedra=810">Psicología Política</a></td>
+           		<td><a href="Ver154_.php?catedra=810">II - Prof. Biglieri, Jorge Antonio<br></a></td>
+			<td><a href="Ver154_.php?catedra=810">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=835">
+          		<center>835</rigth></td>
+          		<td><a href="Ver154_.php?catedra=835">Requisito Idioma: Inglés Módulo I</a></td>
+           		<td><a href="Ver154_.php?catedra=835">I - Prof. Mazzei, Ruben Daniel<br></a></td>
+			<td><a href="Ver154_.php?catedra=835">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=836">
+          		<center>836</rigth></td>
+          		<td><a href="Ver154_.php?catedra=836">Requisito Idioma: Inglés Módulo II</a></td>
+           		<td><a href="Ver154_.php?catedra=836">I - Prof. Mazzei, Ruben Daniel<br></a></td>
+			<td><a href="Ver154_.php?catedra=836">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=838">
+          		<center>838</rigth></td>
+          		<td><a href="Ver154_.php?catedra=838">Requisito Idioma: Francés Módulo I</a></td>
+           		<td><a href="Ver154_.php?catedra=838">I - Prof. Miñones, Laura<br></a></td>
+			<td><a href="Ver154_.php?catedra=838">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=839">
+          		<center>839</rigth></td>
+          		<td><a href="Ver154_.php?catedra=839">Requisito Idioma: Francés Módulo II</a></td>
+           		<td><a href="Ver154_.php?catedra=839">I - Prof. Miñones, Laura<br></a></td>
+			<td><a href="Ver154_.php?catedra=839">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=853">
+          		<center>853</rigth></td>
+          		<td><a href="Ver154_.php?catedra=853">Requisito Idioma: Inglés Módulo I</a></td>
+           		<td><a href="Ver154_.php?catedra=853">II - Prof. Banfi, Cristina<br></a></td>
+			<td><a href="Ver154_.php?catedra=853">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=854">
+          		<center>854</rigth></td>
+          		<td><a href="Ver154_.php?catedra=854">Requisito Idioma: Inglés Módulo II</a></td>
+           		<td><a href="Ver154_.php?catedra=854">II - Prof. Banfi, Cristina<br></a></td>
+			<td><a href="Ver154_.php?catedra=854">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=860">
+          		<center>860</rigth></td>
+          		<td><a href="Ver154_.php?catedra=860">Psicología de la Personalidad</a></td>
+           		<td><a href="Ver154_.php?catedra=860"> - Prof. Garay, Cristian Javier<br></a></td>
+			<td><a href="Ver154_.php?catedra=860">Ver</a></font></td>
+			</tr> 	<tr>
+		<td colspan=4><center>Ciclo de Formación Profesional</center></td>
+		</tr><tr>
+			<td><a href="Ver154_.php?catedra=40">
+          		<center>40</rigth></td>
+          		<td><a href="Ver154_.php?catedra=40">Psicología del Trabajo</a></td>
+           		<td><a href="Ver154_.php?catedra=40">I - Prof. Ferrari, Liliana Edith<br></a></td>
+			<td><a href="Ver154_.php?catedra=40">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=41">
+          		<center>41</rigth></td>
+          		<td><a href="Ver154_.php?catedra=41">Psicología Educacional</a></td>
+           		<td><a href="Ver154_.php?catedra=41">II - Prof. A designar<br></a></td>
+			<td><a href="Ver154_.php?catedra=41">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=43">
+          		<center>43</rigth></td>
+          		<td><a href="Ver154_.php?catedra=43">Clínica de Niños y Adolescentes</a></td>
+           		<td><a href="Ver154_.php?catedra=43"> - Prof. Yorston, Paul Douglas<br></a></td>
+			<td><a href="Ver154_.php?catedra=43">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=67">
+          		<center>67</rigth></td>
+          		<td><a href="Ver154_.php?catedra=67">Psicología Preventiva</a></td>
+           		<td><a href="Ver154_.php?catedra=67"> - Prof. Tisera, Ana Adela<br></a></td>
+			<td><a href="Ver154_.php?catedra=67">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=81">
+          		<center>81</rigth></td>
+          		<td><a href="Ver154_.php?catedra=81">Fisiopatología y Enfermedades Psicosomáticas</a></td>
+           		<td><a href="Ver154_.php?catedra=81"> - Prof. Ulnik, Jorge Claudio<br></a></td>
+			<td><a href="Ver154_.php?catedra=81">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=83">
+          		<center>83</rigth></td>
+          		<td><a href="Ver154_.php?catedra=83">Psicología Educacional</a></td>
+           		<td><a href="Ver154_.php?catedra=83">I - Prof. Nakache, Debora Ruth<br></a></td>
+			<td><a href="Ver154_.php?catedra=83">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=84">
+          		<center>84</rigth></td>
+          		<td><a href="Ver154_.php?catedra=84">Estrategias de Intervención Comunitaria</a></td>
+           		<td><a href="Ver154_.php?catedra=84"> - Lic. Pesiney, Cora Judith<br></a></td>
+			<td><a href="Ver154_.php?catedra=84">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=85">
+          		<center>85</rigth></td>
+          		<td><a href="Ver154_.php?catedra=85">Psicopedagogía Clínica</a></td>
+           		<td><a href="Ver154_.php?catedra=85"> - Dra. Alvarez, Patricia<br></a></td>
+			<td><a href="Ver154_.php?catedra=85">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=86">
+          		<center>86</rigth></td>
+          		<td><a href="Ver154_.php?catedra=86">Orientación Vocacional y Ocupacional</a></td>
+           		<td><a href="Ver154_.php?catedra=86"> - Dra. Aisenson, Gabriela<br></a></td>
+			<td><a href="Ver154_.php?catedra=86">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=91">
+          		<center>91</rigth></td>
+          		<td><a href="Ver154_.php?catedra=91">Neuropsicología</a></td>
+           		<td><a href="Ver154_.php?catedra=91"> - Prof. Politis, Daniel Gustavo<br></a></td>
+			<td><a href="Ver154_.php?catedra=91">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=105">
+          		<center>105</rigth></td>
+          		<td><a href="Ver154_.php?catedra=105">Introducción a los Estudios de Género</a></td>
+           		<td><a href="Ver154_.php?catedra=105"> - Prof. Tajer, Debora<br></a></td>
+			<td><a href="Ver154_.php?catedra=105">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=136">
+          		<center>136</rigth></td>
+          		<td><a href="Ver154_.php?catedra=136">Psicología de la Discapacidad</a></td>
+           		<td><a href="Ver154_.php?catedra=136">I - Lic. Febbraio, Andres<br></a></td>
+			<td><a href="Ver154_.php?catedra=136">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=158">
+          		<center>158</rigth></td>
+          		<td><a href="Ver154_.php?catedra=158">Teoría y Técnica de la Clínica Sistémica</a></td>
+           		<td><a href="Ver154_.php?catedra=158"> - Lic. Wittner, Valeria<br></a></td>
+			<td><a href="Ver154_.php?catedra=158">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=191">
+          		<center>191</rigth></td>
+          		<td><a href="Ver154_.php?catedra=191">Intervenciones Psicológico - Forenses en Disfunciones y Patologías F</a></td>
+           		<td><a href="Ver154_.php?catedra=191"> - Prof. De La Iglesia, Matilde Aida<br></a></td>
+			<td><a href="Ver154_.php?catedra=191">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=539">
+          		<center>539</rigth></td>
+          		<td><a href="Ver154_.php?catedra=539">Psicología Organizacional e Institucional</a></td>
+           		<td><a href="Ver154_.php?catedra=539">II - Prof. Vitale, Nora Beatriz<br></a></td>
+			<td><a href="Ver154_.php?catedra=539">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=570">
+          		<center>570</rigth></td>
+          		<td><a href="Ver154_.php?catedra=570">Psicología Clínica y Psicoterapias II</a></td>
+           		<td><a href="Ver154_.php?catedra=570">I - Prof. Etchevers, Martin Juan<br></a></td>
+			<td><a href="Ver154_.php?catedra=570">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=571">
+          		<center>571</rigth></td>
+          		<td><a href="Ver154_.php?catedra=571">Psicología Clínica y Psicoterapias II</a></td>
+           		<td><a href="Ver154_.php?catedra=571">II - Prof. Keegan, Eduardo Gustavo<br></a></td>
+			<td><a href="Ver154_.php?catedra=571">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=574">
+          		<center>574</rigth></td>
+          		<td><a href="Ver154_.php?catedra=574">Psicología Clínica y Psicoterapias I</a></td>
+           		<td><a href="Ver154_.php?catedra=574">I - Prof. Muraro, Vanina<br></a></td>
+			<td><a href="Ver154_.php?catedra=574">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=575">
+          		<center>575</rigth></td>
+          		<td><a href="Ver154_.php?catedra=575">Psicología Clínica y Psicoterapias I</a></td>
+           		<td><a href="Ver154_.php?catedra=575">II - Prof. Vazquez, Silvia<br></a></td>
+			<td><a href="Ver154_.php?catedra=575">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=577">
+          		<center>577</rigth></td>
+          		<td><a href="Ver154_.php?catedra=577">Ética, Deontología y Derechos Humanos</a></td>
+           		<td><a href="Ver154_.php?catedra=577">I - Prof. Ormart, Elizabeth Beatriz<br></a></td>
+			<td><a href="Ver154_.php?catedra=577">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=578">
+          		<center>578</rigth></td>
+          		<td><a href="Ver154_.php?catedra=578">Ética, Deontología y Derechos Humanos</a></td>
+           		<td><a href="Ver154_.php?catedra=578">II - Prof. Bareiro, Julieta<br></a></td>
+			<td><a href="Ver154_.php?catedra=578">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=607">
+          		<center>607</rigth></td>
+          		<td><a href="Ver154_.php?catedra=607">Psicología Aplicada al Deporte</a></td>
+           		<td><a href="Ver154_.php?catedra=607"> - Prof. Barrios, Raul<br></a></td>
+			<td><a href="Ver154_.php?catedra=607">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=616">
+          		<center>616</rigth></td>
+          		<td><a href="Ver154_.php?catedra=616">Psicofarmacología</a></td>
+           		<td><a href="Ver154_.php?catedra=616"> - Med. Herlyn, Silvia Leonor<br></a></td>
+			<td><a href="Ver154_.php?catedra=616">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=644">
+          		<center>644</rigth></td>
+          		<td><a href="Ver154_.php?catedra=644">Psicología Organizacional e Institucional</a></td>
+           		<td><a href="Ver154_.php?catedra=644">I - Prof. Funes Molineri, Mariana Silvia<br></a></td>
+			<td><a href="Ver154_.php?catedra=644">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=654">
+          		<center>654</rigth></td>
+          		<td><a href="Ver154_.php?catedra=654">Clínica Psicoanalítica</a></td>
+           		<td><a href="Ver154_.php?catedra=654">I - Prof. Laznik, David Alberto<br></a></td>
+			<td><a href="Ver154_.php?catedra=654">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=660">
+          		<center>660</rigth></td>
+          		<td><a href="Ver154_.php?catedra=660">Informática, Educación y Sociedad</a></td>
+           		<td><a href="Ver154_.php?catedra=660"> - Prof. Fernandez Zalazar, Diana Conce<br></a></td>
+			<td><a href="Ver154_.php?catedra=660">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=662">
+          		<center>662</rigth></td>
+          		<td><a href="Ver154_.php?catedra=662">Selección e Incorporación de Personal</a></td>
+           		<td><a href="Ver154_.php?catedra=662"> - Lic. Santarsiero, Maria Marta<br></a></td>
+			<td><a href="Ver154_.php?catedra=662">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=692">
+          		<center>692</rigth></td>
+          		<td><a href="Ver154_.php?catedra=692">Psicología del Delito y del Delincuente</a></td>
+           		<td><a href="Ver154_.php?catedra=692"> - Lic. Llull Casado, Veronica Gabriela<br></a></td>
+			<td><a href="Ver154_.php?catedra=692">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=724">
+          		<center>724</rigth></td>
+          		<td><a href="Ver154_.php?catedra=724">Psicología del Trabajo</a></td>
+           		<td><a href="Ver154_.php?catedra=724">II - Prof. Borrajo, Virginia Laura<br></a></td>
+			<td><a href="Ver154_.php?catedra=724">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=768">
+          		<center>768</rigth></td>
+          		<td><a href="Ver154_.php?catedra=768">Psicología Jurídica</a></td>
+           		<td><a href="Ver154_.php?catedra=768">I - Prof. Ghiso, Claudio Daniel<br></a></td>
+			<td><a href="Ver154_.php?catedra=768">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=769">
+          		<center>769</rigth></td>
+          		<td><a href="Ver154_.php?catedra=769">Psicología Jurídica</a></td>
+           		<td><a href="Ver154_.php?catedra=769">II - Prof. Puhl, Stella Maris<br></a></td>
+			<td><a href="Ver154_.php?catedra=769">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=770">
+          		<center>770</rigth></td>
+          		<td><a href="Ver154_.php?catedra=770">Clínica de las Toxicomanías y el Alcoholismo</a></td>
+           		<td><a href="Ver154_.php?catedra=770"> - Prof. Naparstek, Fabian Abraham<br></a></td>
+			<td><a href="Ver154_.php?catedra=770">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=771">
+          		<center>771</rigth></td>
+          		<td><a href="Ver154_.php?catedra=771">Teoría y Técnica de la Clínica Cognitivo - Comportamental</a></td>
+           		<td><a href="Ver154_.php?catedra=771"> - Prof. Keegan, Eduardo Gustavo<br></a></td>
+			<td><a href="Ver154_.php?catedra=771">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=781">
+          		<center>781</rigth></td>
+          		<td><a href="Ver154_.php?catedra=781">Victimología</a></td>
+           		<td><a href="Ver154_.php?catedra=781"> - Lic. Rodriguez, Flabia Andrea<br></a></td>
+			<td><a href="Ver154_.php?catedra=781">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=782">
+          		<center>782</rigth></td>
+          		<td><a href="Ver154_.php?catedra=782">Técnicas Psicológicas en el Ámbito Jurídico</a></td>
+           		<td><a href="Ver154_.php?catedra=782"> - Prof. Rodriguez, Jose Antonio<br></a></td>
+			<td><a href="Ver154_.php?catedra=782">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=807">
+          		<center>807</rigth></td>
+          		<td><a href="Ver154_.php?catedra=807">Usos del Síntoma</a></td>
+           		<td><a href="Ver154_.php?catedra=807">I - Prof. Mazzuca, Marcelo Esteban<br></a></td>
+			<td><a href="Ver154_.php?catedra=807">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=808">
+          		<center>808</rigth></td>
+          		<td><a href="Ver154_.php?catedra=808">Clínica de la discapacidad y problemas en el desarrollo infantil</a></td>
+           		<td><a href="Ver154_.php?catedra=808"> - Dra. Bruner, Norma Berta<br></a></td>
+			<td><a href="Ver154_.php?catedra=808">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=815">
+          		<center>815</rigth></td>
+          		<td><a href="Ver154_.php?catedra=815">Clínica de las anorexias, las bulimias y la obesidad. Abordaje inter</a></td>
+           		<td><a href="Ver154_.php?catedra=815">I - Prof. Abinzano, Rodrigo<br></a></td>
+			<td><a href="Ver154_.php?catedra=815">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=816">
+          		<center>816</rigth></td>
+          		<td><a href="Ver154_.php?catedra=816">El rol del psicólogo en el equipo interdisciplinario de salud</a></td>
+           		<td><a href="Ver154_.php?catedra=816">I - Prof. Perrotta, Gabriela Viviana<br></a></td>
+			<td><a href="Ver154_.php?catedra=816">Ver</a></font></td>
+			</tr> 	<tr>
+		<td colspan=4><center>Prácticas Profesionales</center></td>
+		</tr><tr>
+			<td><a href="Ver154_.php?catedra=100">
+          		<center>100</rigth></td>
+          		<td><a href="Ver154_.php?catedra=100">P.P.: P.P.: Área Educacional y Trabajo: Orientación Vocacional y Ocu</a></td>
+           		<td><a href="Ver154_.php?catedra=100"> - Lic. Aisenson, Gabriela<br></a></td>
+			<td><a href="Ver154_.php?catedra=100">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=107">
+          		<center>107</rigth></td>
+          		<td><a href="Ver154_.php?catedra=107">P.P.: P.P.: Área Educacional: Discapacidad:  Intervenciones en la Ni</a></td>
+           		<td><a href="Ver154_.php?catedra=107"> - Lic. Febbraio, Andres<br></a></td>
+			<td><a href="Ver154_.php?catedra=107">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=109">
+          		<center>109</rigth></td>
+          		<td><a href="Ver154_.php?catedra=109">P.P.: P.P.: Área Clínica: Clínica de la Urgencia</a></td>
+           		<td><a href="Ver154_.php?catedra=109"> - Lic. Sotelo, Maria Ines De La Milag<br></a></td>
+			<td><a href="Ver154_.php?catedra=109">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=119">
+          		<center>119</rigth></td>
+          		<td><a href="Ver154_.php?catedra=119">P.P.: P.P.: Área Justicia: Instituciones Forenses</a></td>
+           		<td><a href="Ver154_.php?catedra=119"> - Prof. Laursen, Gustavo Matias<br></a></td>
+			<td><a href="Ver154_.php?catedra=119">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=125">
+          		<center>125</rigth></td>
+          		<td><a href="Ver154_.php?catedra=125">P.P.: P.P.: Área Clínica: Orientación  Psicosomática Hospital Durand</a></td>
+           		<td><a href="Ver154_.php?catedra=125"> - Prof. Patrono, Roberto Raul<br></a></td>
+			<td><a href="Ver154_.php?catedra=125">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=126">
+          		<center>126</rigth></td>
+          		<td><a href="Ver154_.php?catedra=126">P.P.: P.P.: Área Clínica: La Clínica en la Emergencia</a></td>
+           		<td><a href="Ver154_.php?catedra=126"> - Lic. Trigo, Martin Pedro<br></a></td>
+			<td><a href="Ver154_.php?catedra=126">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=128">
+          		<center>128</rigth></td>
+          		<td><a href="Ver154_.php?catedra=128">P.P.: P.P.: Área Clínica: Variantes en la Consulta Ambulatoria</a></td>
+           		<td><a href="Ver154_.php?catedra=128"> - Prof. Revale, Guido<br></a></td>
+			<td><a href="Ver154_.php?catedra=128">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=130">
+          		<center>130</rigth></td>
+          		<td><a href="Ver154_.php?catedra=130">P.P.: P.P.: Área Clínica: Clínica de Niños y Adolescentes: Las Forma</a></td>
+           		<td><a href="Ver154_.php?catedra=130"> - Lic. Martinez Liss, Mariana<br></a></td>
+			<td><a href="Ver154_.php?catedra=130">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=135">
+          		<center>135</rigth></td>
+          		<td><a href="Ver154_.php?catedra=135">P.P.: P.P.: Área Clínica: Hospital de niños Dr. Ricardo Gutiérrez</a></td>
+           		<td><a href="Ver154_.php?catedra=135"> - Lic. Fränkel, Andrea<br></a></td>
+			<td><a href="Ver154_.php?catedra=135">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=138">
+          		<center>138</rigth></td>
+          		<td><a href="Ver154_.php?catedra=138">P.P.: P.P.: Área Clínica: Clínica de las Adicciones: Abordaje Interd</a></td>
+           		<td><a href="Ver154_.php?catedra=138"> - Prof. Torres, Gustavo Fernando<br></a></td>
+			<td><a href="Ver154_.php?catedra=138">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=161">
+          		<center>161</rigth></td>
+          		<td><a href="Ver154_.php?catedra=161">P.P.: P.P.: Área Clínica: Clínica con Púberes y Adolescentes en el H</a></td>
+           		<td><a href="Ver154_.php?catedra=161"> - Lic. Reyes, Marcela Victoria<br></a></td>
+			<td><a href="Ver154_.php?catedra=161">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=576">
+          		<center>576</rigth></td>
+          		<td><a href="Ver154_.php?catedra=576">PP: PP: Area Clínica: Cuidados Paliativos en el Hospital: El rol del</a></td>
+           		<td><a href="Ver154_.php?catedra=576">I - Prof. Bareiro, Julieta<br></a></td>
+			<td><a href="Ver154_.php?catedra=576">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=579">
+          		<center>579</rigth></td>
+          		<td><a href="Ver154_.php?catedra=579">PP: PP: Area Clínica: Abordaje Clínico en Cuidados Paliativos</a></td>
+           		<td><a href="Ver154_.php?catedra=579">I - Lic. Dulitzky, Silvina Noemi<br></a></td>
+			<td><a href="Ver154_.php?catedra=579">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=580">
+          		<center>580</rigth></td>
+          		<td><a href="Ver154_.php?catedra=580">PP: PP: Area Clínica: Entrenamiento y aplicación de Técnicas Cogniti</a></td>
+           		<td><a href="Ver154_.php?catedra=580">I - Prof. Korman, Guido Pablo<br></a></td>
+			<td><a href="Ver154_.php?catedra=580">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=581">
+          		<center>581</rigth></td>
+          		<td><a href="Ver154_.php?catedra=581">PP: PP: Area Social Comunitaria: Salud Colectiva: Gestión y Evaluaci</a></td>
+           		<td><a href="Ver154_.php?catedra=581">I - Prof. Ardila Gomez, Sara Elena<br></a></td>
+			<td><a href="Ver154_.php?catedra=581">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=582">
+          		<center>582</rigth></td>
+          		<td><a href="Ver154_.php?catedra=582">PP: PP: Area Social Comunitaria: Derechos y Subjetividad: Intervenci</a></td>
+           		<td><a href="Ver154_.php?catedra=582">I - Prof. Salomone, Gabriela Zulma<br></a></td>
+			<td><a href="Ver154_.php?catedra=582">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=583">
+          		<center>583</rigth></td>
+          		<td><a href="Ver154_.php?catedra=583">PP: PP: Area Social Comunitaria: Problemas Bioéticos en Educación Se</a></td>
+           		<td><a href="Ver154_.php?catedra=583">I - Prof. Ormart, Elizabeth Beatriz<br></a></td>
+			<td><a href="Ver154_.php?catedra=583">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=584">
+          		<center>584</rigth></td>
+          		<td><a href="Ver154_.php?catedra=584">PP: PP: Area Social Comunitaria: Cine y Subjetividad. Intervenciones</a></td>
+           		<td><a href="Ver154_.php?catedra=584">I - Prof. Mastandrea, Paula<br></a></td>
+			<td><a href="Ver154_.php?catedra=584">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=601">
+          		<center>601</rigth></td>
+          		<td><a href="Ver154_.php?catedra=601">P.P.: P.P.: Área Justicia: El Trabajo con Familias en el Ámbito Jurí</a></td>
+           		<td><a href="Ver154_.php?catedra=601"> - Prof. Siderakis, Melina<br></a></td>
+			<td><a href="Ver154_.php?catedra=601">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=632">
+          		<center>632</rigth></td>
+          		<td><a href="Ver154_.php?catedra=632">P.P.: P.P.: Área Social Comunitaria: Ámbito Comunitario Familia y En</a></td>
+           		<td><a href="Ver154_.php?catedra=632"> - Lic. Benvenuto, Analía Liliana<br></a></td>
+			<td><a href="Ver154_.php?catedra=632">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=638">
+          		<center>638</rigth></td>
+          		<td><a href="Ver154_.php?catedra=638">P.P.: P.P.: Área Social Comunitaria: Salud Mental y Desinstitucional</a></td>
+           		<td><a href="Ver154_.php?catedra=638"> - Lic. Tisera, Ana Adela<br></a></td>
+			<td><a href="Ver154_.php?catedra=638">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=639">
+          		<center>639</rigth></td>
+          		<td><a href="Ver154_.php?catedra=639">P.P.: P.P.: Área Clínica: Práctica Clínica Psicoanalítica de Niños c</a></td>
+           		<td><a href="Ver154_.php?catedra=639"> - Prof. Freidin, Fabiana<br></a></td>
+			<td><a href="Ver154_.php?catedra=639">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=657">
+          		<center>657</rigth></td>
+          		<td><a href="Ver154_.php?catedra=657">P.P.: P.P.: Área Trabajo: Proceso de Reinserción Laboral</a></td>
+           		<td><a href="Ver154_.php?catedra=657"> - Lic. Sandoval, Arnaldo Martin<br></a></td>
+			<td><a href="Ver154_.php?catedra=657">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=687">
+          		<center>687</rigth></td>
+          		<td><a href="Ver154_.php?catedra=687">P.P.: P.P.: Área Clínica y Social Comunitaria: Fundamentos Clínicos </a></td>
+           		<td><a href="Ver154_.php?catedra=687">I - Lic. Rossi, Gustavo Pablo<br></a></td>
+			<td><a href="Ver154_.php?catedra=687">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=689">
+          		<center>689</rigth></td>
+          		<td><a href="Ver154_.php?catedra=689">P.P.: P.P.: Área Clínica: Atención Psicológica en un Hospital</a></td>
+           		<td><a href="Ver154_.php?catedra=689"> - Lic. Di Biasi, Silvia Ines<br></a></td>
+			<td><a href="Ver154_.php?catedra=689">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=703">
+          		<center>703</rigth></td>
+          		<td><a href="Ver154_.php?catedra=703">P.P.: P.P.: Área Clínica: Neuropsicología Práctica: Técnicas de Eval</a></td>
+           		<td><a href="Ver154_.php?catedra=703"> - Lic. Vanotti, Sandra Ines<br></a></td>
+			<td><a href="Ver154_.php?catedra=703">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=707">
+          		<center>707</rigth></td>
+          		<td><a href="Ver154_.php?catedra=707">P.P.: P.P.: Área Social Comunitaria: Adicciones: Un Abordaje Clínico</a></td>
+           		<td><a href="Ver154_.php?catedra=707"> - Lic. Coppola, Daniel Ricardo<br></a></td>
+			<td><a href="Ver154_.php?catedra=707">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=718">
+          		<center>718</rigth></td>
+          		<td><a href="Ver154_.php?catedra=718">P.P.: P.P.: Área Justicia: La Actividad Pericial en Psicología Juríd</a></td>
+           		<td><a href="Ver154_.php?catedra=718"> - Prof. Izcurdia, Maria De Los Angeles<br></a></td>
+			<td><a href="Ver154_.php?catedra=718">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=721">
+          		<center>721</rigth></td>
+          		<td><a href="Ver154_.php?catedra=721">P.P.: P.P.: Área Clínica: Psicología Perinatal</a></td>
+           		<td><a href="Ver154_.php?catedra=721"> - Lic. Galindez, Elena Teresa<br></a></td>
+			<td><a href="Ver154_.php?catedra=721">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=722">
+          		<center>722</rigth></td>
+          		<td><a href="Ver154_.php?catedra=722">P.P.: P.P.: Área Clínica: El Juego en los Límites: el Psicoanálisis </a></td>
+           		<td><a href="Ver154_.php?catedra=722"> - Dra. Bruner, Norma Berta<br></a></td>
+			<td><a href="Ver154_.php?catedra=722">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=726">
+          		<center>726</rigth></td>
+          		<td><a href="Ver154_.php?catedra=726">P.P.: P.P.: Área Clínica: Problemática Clínica en Niñez, Adolescenci</a></td>
+           		<td><a href="Ver154_.php?catedra=726"> - Lic. Otero, Maria Eugenia<br></a></td>
+			<td><a href="Ver154_.php?catedra=726">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=772">
+          		<center>772</rigth></td>
+          		<td><a href="Ver154_.php?catedra=772">P.P.: P.P.: Área Clínica: Práctica Clínica en Anorexias, Bulimias y </a></td>
+           		<td><a href="Ver154_.php?catedra=772"> - Lic. Rodriguez, Rafael Osvaldo<br></a></td>
+			<td><a href="Ver154_.php?catedra=772">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=779">
+          		<center>779</rigth></td>
+          		<td><a href="Ver154_.php?catedra=779">P.P.: P.P.: Área Clínica: Una Perspectiva Antropológica en la Clínic</a></td>
+           		<td><a href="Ver154_.php?catedra=779"> - Prof. Conti, Norberto<br></a></td>
+			<td><a href="Ver154_.php?catedra=779">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=786">
+          		<center>786</rigth></td>
+          		<td><a href="Ver154_.php?catedra=786">P.P.: P.P.: Área Social Comunitaria: El Psicólogo en Centros de Aten</a></td>
+           		<td><a href="Ver154_.php?catedra=786"> - Prof. De Lellis, Martin<br></a></td>
+			<td><a href="Ver154_.php?catedra=786">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=788">
+          		<center>788</rigth></td>
+          		<td><a href="Ver154_.php?catedra=788">P.P.: P.P.: Área Social Comunitaria: Promoción de la Salud en adoles</a></td>
+           		<td><a href="Ver154_.php?catedra=788"> - Prof. Schmidt, Vanina Ines<br></a></td>
+			<td><a href="Ver154_.php?catedra=788">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=805">
+          		<center>805</rigth></td>
+          		<td><a href="Ver154_.php?catedra=805">P.P.: P.P.: Area Social Comunitaria: Violencia. Modos de intervenció</a></td>
+           		<td><a href="Ver154_.php?catedra=805">I - Lic. Morao, Marisa<br></a></td>
+			<td><a href="Ver154_.php?catedra=805">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=811">
+          		<center>811</rigth></td>
+          		<td><a href="Ver154_.php?catedra=811">P.P.: P.P.: Area Social Comunitaria: Psicologia del Deporte y la Act</a></td>
+           		<td><a href="Ver154_.php?catedra=811">I - Prof. Barrios, Raul<br></a></td>
+			<td><a href="Ver154_.php?catedra=811">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=812">
+          		<center>812</rigth></td>
+          		<td><a href="Ver154_.php?catedra=812">P.P.: P.P.: Area Clínica: Clínica en las Instituciones Públicas: Dis</a></td>
+           		<td><a href="Ver154_.php?catedra=812">I - Lic. Ferraro, Marcelo<br></a></td>
+			<td><a href="Ver154_.php?catedra=812">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=817">
+          		<center>817</rigth></td>
+          		<td><a href="Ver154_.php?catedra=817">P.P.: P.P.: Area Clínica: Abordaje de las patologías del acto: La cl</a></td>
+           		<td><a href="Ver154_.php?catedra=817">I - Lic. Szmuszkowiez, Sandra<br></a></td>
+			<td><a href="Ver154_.php?catedra=817">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=820">
+          		<center>820</rigth></td>
+          		<td><a href="Ver154_.php?catedra=820">P.P.: P.P.: Area Clinica: Clínica de los transtornos de la personali</a></td>
+           		<td><a href="Ver154_.php?catedra=820">I - Prof. Etchevers, Martin Juan<br></a></td>
+			<td><a href="Ver154_.php?catedra=820">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=822">
+          		<center>822</rigth></td>
+          		<td><a href="Ver154_.php?catedra=822">P.P.: P.P.: Area Clinica: El tratamiento del padecimiento subjetivo </a></td>
+           		<td><a href="Ver154_.php?catedra=822">I - Prof. Iuale, Maria Lujan<br></a></td>
+			<td><a href="Ver154_.php?catedra=822">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=824">
+          		<center>824</rigth></td>
+          		<td><a href="Ver154_.php?catedra=824">P.P.: P.P.: Area Clínica: El rol del psicólogo en el ámbito de las t</a></td>
+           		<td><a href="Ver154_.php?catedra=824">I - Prof. Ormart, Elizabeth Beatriz<br></a></td>
+			<td><a href="Ver154_.php?catedra=824">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=826">
+          		<center>826</rigth></td>
+          		<td><a href="Ver154_.php?catedra=826">P.P.: P.P.: Area Social Comunitaria: Intervenciones psicoanalíticas </a></td>
+           		<td><a href="Ver154_.php?catedra=826"> - Prof. Suarez, Nazarena<br></a></td>
+			<td><a href="Ver154_.php?catedra=826">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=842">
+          		<center>842</rigth></td>
+          		<td><a href="Ver154_.php?catedra=842">P.P.: P.P.: Área Social Comunitaria: Abordaje y Prevención de Violen</a></td>
+           		<td><a href="Ver154_.php?catedra=842">I - Lic. Miracco, Mariana Carolina<br></a></td>
+			<td><a href="Ver154_.php?catedra=842">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=851">
+          		<center>851</rigth></td>
+          		<td><a href="Ver154_.php?catedra=851">P.P.: P.P.: Area Clínica: Práctica Profesional en Psicología Aeronáu</a></td>
+           		<td><a href="Ver154_.php?catedra=851">I - Prof. Machin, Nicolas<br></a></td>
+			<td><a href="Ver154_.php?catedra=851">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=852">
+          		<center>852</rigth></td>
+          		<td><a href="Ver154_.php?catedra=852">P.P.: P.P.: Area Social Comunitaria: Abordaje comunitario en barrios</a></td>
+           		<td><a href="Ver154_.php?catedra=852">I - Prof. Vizioli, Nicolas<br></a></td>
+			<td><a href="Ver154_.php?catedra=852">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=857">
+          		<center>857</rigth></td>
+          		<td><a href="Ver154_.php?catedra=857">P.P.: P.P.: Área Clínica: Diagnóstico y tratamiento en personas que </a></td>
+           		<td><a href="Ver154_.php?catedra=857">I - Dra. D´Anna, Ana Maria <br></a></td>
+			<td><a href="Ver154_.php?catedra=857">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=858">
+          		<center>858</rigth></td>
+          		<td><a href="Ver154_.php?catedra=858">P.P.: P.P.: Área Justicia: El rol del psicólogo en el Ministerio Púb</a></td>
+           		<td><a href="Ver154_.php?catedra=858">I - Prof. Marqués, Roxana Laura<br></a></td>
+			<td><a href="Ver154_.php?catedra=858">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=861">
+          		<center>861</rigth></td>
+          		<td><a href="Ver154_.php?catedra=861">P.P.: P.P.: Area Clínica: Clínica Sistémica: Familia y Pareja. Entre</a></td>
+           		<td><a href="Ver154_.php?catedra=861">I - Prof. Wittner, Valeria<br></a></td>
+			<td><a href="Ver154_.php?catedra=861">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=862">
+          		<center>862</rigth></td>
+          		<td><a href="Ver154_.php?catedra=862">P.P.: P.P.: Area Clínica: Clínica Analítica de las Psicosis</a></td>
+           		<td><a href="Ver154_.php?catedra=862">I - Prof. Alomo, Martin Carlos<br></a></td>
+			<td><a href="Ver154_.php?catedra=862">Ver</a></font></td>
+			</tr> 	<tr>
+		<td colspan=4><center>Prácticas de Investigación</center></td>
+		</tr><tr>
+			<td><a href="Ver154_.php?catedra=585">
+          		<center>585</rigth></td>
+          		<td><a href="Ver154_.php?catedra=585">P.P: P.I.: Neurociencias del Comportamiento: aproximaciones a los Mé</a></td>
+           		<td><a href="Ver154_.php?catedra=585">I - Prof. Muzio, Ruben Nestor<br></a></td>
+			<td><a href="Ver154_.php?catedra=585">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=819">
+          		<center>819</rigth></td>
+          		<td><a href="Ver154_.php?catedra=819">P.P.: P.I.: Evaluación Psicológica en Contexto</a></td>
+           		<td><a href="Ver154_.php?catedra=819">I - Prof. Mikulic, Isabel Maria<br></a></td>
+			<td><a href="Ver154_.php?catedra=819">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=845">
+          		<center>845</rigth></td>
+          		<td><a href="Ver154_.php?catedra=845">P.P: P.I.: Práctica de Investigación en Psicología del Envejecimient</a></td>
+           		<td><a href="Ver154_.php?catedra=845">I - Prof. Iacub, Ricardo<br></a></td>
+			<td><a href="Ver154_.php?catedra=845">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=849">
+          		<center>849</rigth></td>
+          		<td><a href="Ver154_.php?catedra=849">P.P.:P.I.: Bioética en Instituciones de Salud</a></td>
+           		<td><a href="Ver154_.php?catedra=849"> - Lic. Lima, Natacha Salome<br></a></td>
+			<td><a href="Ver154_.php?catedra=849">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=856">
+          		<center>856</rigth></td>
+          		<td><a href="Ver154_.php?catedra=856">P.P:P.I.: Investigación Clínica y Prevención en los tiempos de la Pr</a></td>
+           		<td><a href="Ver154_.php?catedra=856">I - Prof. Duhalde, Constanza Cecilia<br></a></td>
+			<td><a href="Ver154_.php?catedra=856">Ver</a></font></td>
+			</tr></table></div><div id="TE" ><table class="table_tabs"><tr>
+					<th>&nbsp;Cat</th>
+					<th>&nbsp;Materia</th>
+					<th colspan=2>&nbsp;Cátedra</th>
+					
+				   </tr><tr>
+			<td><a href="Ver154_.php?catedra=401">
+          		<center>401</rigth></td>
+          		<td><a href="Ver154_.php?catedra=401">Teoría y Técnica de Terapia Ocupacional  I</a></td>
+           		<td><a href="Ver154_.php?catedra=401"> - Lic. Bustingorri, Maria Laura<br></a></td>
+			<td><a href="Ver154_.php?catedra=401">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=402">
+          		<center>402</rigth></td>
+          		<td><a href="Ver154_.php?catedra=402">La Ocupación y su Proceso  I</a></td>
+           		<td><a href="Ver154_.php?catedra=402"> - Lic. Trimarco, María Laura<br></a></td>
+			<td><a href="Ver154_.php?catedra=402">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=403">
+          		<center>403</rigth></td>
+          		<td><a href="Ver154_.php?catedra=403">Anatomía</a></td>
+           		<td><a href="Ver154_.php?catedra=403"> - Lic. Verna, Maria Fernanda<br></a></td>
+			<td><a href="Ver154_.php?catedra=403">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=404">
+          		<center>404</rigth></td>
+          		<td><a href="Ver154_.php?catedra=404">Fisiología</a></td>
+           		<td><a href="Ver154_.php?catedra=404"> - Lic. Verna, Maria Fernanda<br></a></td>
+			<td><a href="Ver154_.php?catedra=404">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=405">
+          		<center>405</rigth></td>
+          		<td><a href="Ver154_.php?catedra=405">Psicología de los Ciclos Vitales  I</a></td>
+           		<td><a href="Ver154_.php?catedra=405"> - Lic. Peñaloza Egas, Nancy Mery<br></a></td>
+			<td><a href="Ver154_.php?catedra=405">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=406">
+          		<center>406</rigth></td>
+          		<td><a href="Ver154_.php?catedra=406">Teoría y Técnica de Terapia Ocupacional  II</a></td>
+           		<td><a href="Ver154_.php?catedra=406"> - Lic. Metz, Miriam Isabel<br></a></td>
+			<td><a href="Ver154_.php?catedra=406">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=407">
+          		<center>407</rigth></td>
+          		<td><a href="Ver154_.php?catedra=407">La Ocupación y su Proceso   II</a></td>
+           		<td><a href="Ver154_.php?catedra=407"> - To. Bustingorri, Maria Laura<br></a></td>
+			<td><a href="Ver154_.php?catedra=407">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=408">
+          		<center>408</rigth></td>
+          		<td><a href="Ver154_.php?catedra=408">Psicología de los Ciclos Vitales  II</a></td>
+           		<td><a href="Ver154_.php?catedra=408"> - Lic. Bustingorri, Maria Laura<br></a></td>
+			<td><a href="Ver154_.php?catedra=408">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=409">
+          		<center>409</rigth></td>
+          		<td><a href="Ver154_.php?catedra=409">Clínica Médica y Neurología</a></td>
+           		<td><a href="Ver154_.php?catedra=409"> - Prof. Calb, Alejandro<br></a></td>
+			<td><a href="Ver154_.php?catedra=409">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=410">
+          		<center>410</rigth></td>
+          		<td><a href="Ver154_.php?catedra=410">Ortopedia</a></td>
+           		<td><a href="Ver154_.php?catedra=410"> - Prof. Martinez Wagner, Alejandro Raf<br></a></td>
+			<td><a href="Ver154_.php?catedra=410">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=411">
+          		<center>411</rigth></td>
+          		<td><a href="Ver154_.php?catedra=411">Psicopatología</a></td>
+           		<td><a href="Ver154_.php?catedra=411"> - Prof. Gerskovich, Nestor<br></a></td>
+			<td><a href="Ver154_.php?catedra=411">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=412">
+          		<center>412</rigth></td>
+          		<td><a href="Ver154_.php?catedra=412">Práctica Profesional  I</a></td>
+           		<td><a href="Ver154_.php?catedra=412"> - Lic. Metz, Miriam Isabel<br></a></td>
+			<td><a href="Ver154_.php?catedra=412">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=413">
+          		<center>413</rigth></td>
+          		<td><a href="Ver154_.php?catedra=413">Teoría y Técnica de Terapia Ocupacional III</a></td>
+           		<td><a href="Ver154_.php?catedra=413"> - Lic. A designar<br></a></td>
+			<td><a href="Ver154_.php?catedra=413">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=414">
+          		<center>414</rigth></td>
+          		<td><a href="Ver154_.php?catedra=414">Psicología Social, de las Instituciones y de los Grupos</a></td>
+           		<td><a href="Ver154_.php?catedra=414"> - Lic. A designar<br></a></td>
+			<td><a href="Ver154_.php?catedra=414">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=415">
+          		<center>415</rigth></td>
+          		<td><a href="Ver154_.php?catedra=415">Práctica Profesional  II</a></td>
+           		<td><a href="Ver154_.php?catedra=415"> - To. A designar<br></a></td>
+			<td><a href="Ver154_.php?catedra=415">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=416">
+          		<center>416</rigth></td>
+          		<td><a href="Ver154_.php?catedra=416">Teoría y Técnica de Terapia Ocupacional  IV</a></td>
+           		<td><a href="Ver154_.php?catedra=416"> - To. Fernandez, Silvina Soledad<br></a></td>
+			<td><a href="Ver154_.php?catedra=416">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=417">
+          		<center>417</rigth></td>
+          		<td><a href="Ver154_.php?catedra=417">Práctica Profesional  III</a></td>
+           		<td><a href="Ver154_.php?catedra=417"> - Lic. A designar<br></a></td>
+			<td><a href="Ver154_.php?catedra=417">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=418">
+          		<center>418</rigth></td>
+          		<td><a href="Ver154_.php?catedra=418">Teoría y Técnica de Terapia Ocupacional  V</a></td>
+           		<td><a href="Ver154_.php?catedra=418"> - Lic. Ciampa, Maria Agostina<br></a></td>
+			<td><a href="Ver154_.php?catedra=418">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=419">
+          		<center>419</rigth></td>
+          		<td><a href="Ver154_.php?catedra=419">La Ocupación y su Proceso  III</a></td>
+           		<td><a href="Ver154_.php?catedra=419"> - Lic. Alvarez, Maria De Los Angeles<br></a></td>
+			<td><a href="Ver154_.php?catedra=419">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=420">
+          		<center>420</rigth></td>
+          		<td><a href="Ver154_.php?catedra=420">Metodología de la Investigación y Estadística</a></td>
+           		<td><a href="Ver154_.php?catedra=420"> - Lic. Nabergoi, Mariela<br></a></td>
+			<td><a href="Ver154_.php?catedra=420">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=421">
+          		<center>421</rigth></td>
+          		<td><a href="Ver154_.php?catedra=421">Orientación para el ejercicio profesional</a></td>
+           		<td><a href="Ver154_.php?catedra=421"> - To. Etcheverry, Maria Laura<br></a></td>
+			<td><a href="Ver154_.php?catedra=421">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=422">
+          		<center>422</rigth></td>
+          		<td><a href="Ver154_.php?catedra=422">Práctica Profesional  IV</a></td>
+           		<td><a href="Ver154_.php?catedra=422"> - T.O. Solari, Silvina Andrea<br></a></td>
+			<td><a href="Ver154_.php?catedra=422">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=423">
+          		<center>423</rigth></td>
+          		<td><a href="Ver154_.php?catedra=423">Biomecánica</a></td>
+           		<td><a href="Ver154_.php?catedra=423"> - Lic. A designar<br></a></td>
+			<td><a href="Ver154_.php?catedra=423">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=835">
+          		<center>835</rigth></td>
+          		<td><a href="Ver154_.php?catedra=835">Requisito Idioma: Inglés Módulo I</a></td>
+           		<td><a href="Ver154_.php?catedra=835">I - Prof. Mazzei, Ruben Daniel<br></a></td>
+			<td><a href="Ver154_.php?catedra=835">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=836">
+          		<center>836</rigth></td>
+          		<td><a href="Ver154_.php?catedra=836">Requisito Idioma: Inglés Módulo II</a></td>
+           		<td><a href="Ver154_.php?catedra=836">I - Prof. Mazzei, Ruben Daniel<br></a></td>
+			<td><a href="Ver154_.php?catedra=836">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=838">
+          		<center>838</rigth></td>
+          		<td><a href="Ver154_.php?catedra=838">Requisito Idioma: Francés Módulo I</a></td>
+           		<td><a href="Ver154_.php?catedra=838">I - Prof. Miñones, Laura<br></a></td>
+			<td><a href="Ver154_.php?catedra=838">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=839">
+          		<center>839</rigth></td>
+          		<td><a href="Ver154_.php?catedra=839">Requisito Idioma: Francés Módulo II</a></td>
+           		<td><a href="Ver154_.php?catedra=839">I - Prof. Miñones, Laura<br></a></td>
+			<td><a href="Ver154_.php?catedra=839">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=853">
+          		<center>853</rigth></td>
+          		<td><a href="Ver154_.php?catedra=853">Requisito Idioma: Inglés Módulo I</a></td>
+           		<td><a href="Ver154_.php?catedra=853">II - Prof. Banfi, Cristina<br></a></td>
+			<td><a href="Ver154_.php?catedra=853">Ver</a></font></td>
+			</tr><tr>
+			<td><a href="Ver154_.php?catedra=854">
+          		<center>854</rigth></td>
+          		<td><a href="Ver154_.php?catedra=854">Requisito Idioma: Inglés Módulo II</a></td>
+           		<td><a href="Ver154_.php?catedra=854">II - Prof. Banfi, Cristina<br></a></td>
+			<td><a href="Ver154_.php?catedra=854">Ver</a></font></td>
+			</tr></table></div></div></div><style>
+/* HACK para IE */
+div#ticketroll {
+width: 98% !important;
+min-width: 1040px;
+width: 1040px;
+
+}
+
+div#coremain {
+width: auto !important;
+min-width: 1040px;
+width: 1040px;
+}
+</style>
+<script>
+$(document).ready(function() {
+
+$("#tabs").tabs();
+
+$("div#tabs tr:odd td").addClass("bluecell-light");
+$("div#tabs tr:even td").addClass("bluecellthin-dark");
+$("div#tabs tr:first-child").removeClass("bluecellthin-dark");
+
+$("div#tdcontent").css("float", "left");
+$("div#tdcontent").css("width", "99%");
+$("div#ticketroll").css("float", "left");
+
+$("div#coremain").css("float", "none");
+$("#coreright").show();
+
+});
+</script>
+
+
+
+</div> <!-- cierro div_tabs -->
+</div>
+</div>
+
+							
+					</div>
+			</div>
+	</div>
+
+	<div class=\"navclear\"></div>
+
+</div>					
+
+<!-- FOOTER -->
+<div id="copyright1">
+<div class="row" style="align-items:center">
+	<div class="col" style="padding-left:11px">
+		<div>
+			<div style="vertical-align: middle; display: inline-grid;padding:9px;">
+				<a title="UBA-PSI" href="/Psi/../index.php">
+					<img height="35" style="vertical-align: middle; max-height: 35px;" decoding="async" src="/sistemaacademico/images/logo-psi-nuevo.png" title="WP-logoUBA2" alt="WP-logoUBA2" loading="lazy" style="vertical-align: middle; display: inline; max-height: 20px;">
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="col" style="padding: 0px;">
+	</div>
+	<div class="col" id="col-redes" style="padding: 0px 20px 0px 0px">
+		<div id="iconos-redes">
+			<div style="display: table-cell; vertical-align: middle;">
+				<div class="divIconos">
+					<div class="">
+						<span class="">
+							<a class="" target="_blank" href="https://twitter.com/UBAPsicologia/">
+								<img style="max-height: 35px;" src="/images/redes-twitter.png">
+							</a>
+						</span>
+						<span class="">
+							<a class="" target="_blank" href="https://www.facebook.com/uba.psi/">
+								<img style="max-height: 35px;" src="/images/redes-facebook.png">
+							</a>
+						</span>
+						<span class="">
+							<a class="" target="_blank" href="https://www.instagram.com/uba.psicologia/">
+								<img style="max-height: 35px;" src="/images/redes-instagram.png">
+							</a>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>

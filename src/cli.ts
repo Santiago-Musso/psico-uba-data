@@ -116,6 +116,7 @@ function parseDetailPage(html: string) {
   const parseRows = (tableIdx: number, tipo: "Teo" | "Sem" | "Prac") => {
     const rows: any[] = [];
     const table = tables.eq(tableIdx);
+    let lastLabel = "";
     table.find("tr").each((i, tr) => {
       if (i === 0) return; // header
       const tds = $(tr).find("td");
@@ -123,7 +124,10 @@ function parseDetailPage(html: string) {
       // Some tables may be empty
       if (tds.length < 10 && tipo !== "Sem") return;
 
-      const label = normalizeWhitespace($(tds[0]).text()).replace(/^\u00A0/, "");
+      let label = normalizeWhitespace($(tds[0]).text()).replace(/^\u00A0/, "");
+      // UBA uses empty cells for continuation rows of the same commission — carry forward
+      if (!label && lastLabel) label = lastLabel;
+      else if (label) lastLabel = label;
       const dayName = normalizeWhitespace($(tds[1]).text()).toLowerCase();
       const start = normalizeWhitespace($(tds[2]).text()).replace(/^\u00A0/, "");
       const end = normalizeWhitespace($(tds[3]).text()).replace(/^\u00A0/, "");
@@ -168,6 +172,7 @@ async function run(termId: string) {
 
   // Fetch list page
   const listHtml = await fetchISO(`${BASE}/Psi/Ope154_.php`);
+  fs.writeFileSync(path.resolve(process.cwd(), "rawHtml.html"), listHtml, "utf8");
   const programs = parseListPage(listHtml);
 
   // Build maps and placeholders
