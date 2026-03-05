@@ -1,68 +1,102 @@
-## psico-uba-data
+# psico-uba-data
 
-Static JSON data for UBA Psicología schedules and related resources. This repo is designed to be the single source of truth for the public JSON that your other app consumes. On every push to `main`, the data in the term folders (e.g., `2025-2/`) is automatically published to GitHub Pages so it can be fetched from any site. This keeps static assets owned by this repository, not the consuming app.
+Repositorio de datos estáticos para el [PsicoUBA](https://github.com/santiago-musso/psico-uba) planificador de cursada. Scrapea el portal académico de la Facultad de Psicología (UBA), normaliza los datos y los publica en GitHub Pages como archivos JSON estáticos.
 
-### Repository layout
+**Data URL:** `https://santiago-musso.github.io/psico-uba-data`
 
-- `2025-2/`
-  - `materias.json`, `sections.json`, `meets.json`, `sedes.json`, `catedras.json`
-  - `indexes/` with precomputed index files
-- `src/` TypeScript CLI to fetch/generate data
+## Stack
 
-### Prerequisites
+- Node.js 20+, TypeScript 5, ts-node
+- cheerio (HTML parsing), node-fetch 2, iconv-lite (charset ISO-8859-1 del portal UBA)
 
-- Node.js 20+
-- npm 9+
+## Estructura del repo
 
-### Install and data generation
+```
+src/
+├── cli.ts        # Scraper principal y generador de JSON
+├── types.ts      # Tipos compartidos (Term, Materia, Catedra, Section, Meet, Sede)
+├── utils.ts      # Funciones auxiliares (parsing de días, horarios, aulas)
+└── sedes.ts      # Constantes de sedes (HY, IN, SI, AV, EC)
+
+2025-2/           # Datos del cuatrimestre 2025-2 (publicados en Pages)
+├── materias.json
+├── catedras.json
+├── sections.json
+├── meets.json
+├── sedes.json
+└── indexes/
+    ├── byProgram.json
+    ├── byCatedra.json
+    ├── byMateria.json
+    ├── byDaySede.json
+    └── bySectionId.json
+
+.github/workflows/deploy.yml   # Publica term folders a GitHub Pages en cada push a main
+```
+
+## Uso
 
 ```bash
 npm ci
-# Example: fetch/generate data for term 2025-2
+
+# Scrapear y generar datos para un cuatrimestre
 npm run fetch:2025-2
 ```
 
-The CLI writes JSON into a term directory (e.g., `2025-2/`). Commit and push those changes to publish them.
+El CLI genera los JSON en el directorio del cuatrimestre (e.g., `2025-2/`). Commitear y pushear a `main` los publica automáticamente.
 
-### Automatic deployment to GitHub Pages
+## Deploy a GitHub Pages
 
-This repo includes a workflow at `.github/workflows/deploy.yml` that:
+El workflow `.github/workflows/deploy.yml` corre en cada push a `main` y publica todos los directorios con formato de cuatrimestre (e.g., `2025-2/`) a GitHub Pages.
 
-1) Collects only the data directories in the repository root that look like term folders (e.g., `2025-1`, `2025-2`) into a `_site/` directory.
-2) Publishes `_site/` to GitHub Pages using the official Pages action.
+**Habilitar Pages (una sola vez):**
+1. GitHub → Settings → Pages
+2. Source: "GitHub Actions"
 
-#### Enable Pages once
+**URLs de ejemplo:**
+- `https://santiago-musso.github.io/psico-uba-data/2025-2/sections.json`
+- `https://santiago-musso.github.io/psico-uba-data/2025-2/indexes/byMateria.json`
 
-1) In GitHub, go to Settings → Pages
-2) Under "Build and deployment", set Source to "GitHub Actions"
+## Agregar un nuevo cuatrimestre
 
-After the first successful run, the workflow output will show the public URL (also visible in Settings → Pages). It will look like:
-
+```bash
+npm run fetch:2026-1   # scrapea y genera 2026-1/
+git add 2026-1/
+git commit -m "add 2026-1 data"
+git push
 ```
-https://<OWNER>.github.io/<REPO>/
-```
 
-#### What gets published
+El workflow se encarga del deploy. En el frontend, actualizar `TERM` en `psico-uba/src/app/schedule/page.tsx`.
 
-- Every top-level directory in the repo that starts with a year pattern (e.g., `2025-2/`) is published.
-- Any top-level `*.json` files (if present) are also published.
+## Programas soportados
 
-The TypeScript source and other non-data files are not included in the published site.
+| Código | Nombre |
+|--------|--------|
+| PS | Licenciatura en Psicología |
+| PR | Profesorado en Psicología |
+| LM | Licenciatura en Musicoterapia |
+| TE | Licenciatura en Terapia Ocupacional |
 
-#### Example consumer URLs
+## Sedes
 
-- `https://<OWNER>.github.io/<REPO>/2025-2/sections.json`
-- `https://<OWNER>.github.io/<REPO>/2025-2/indexes/byMateria.json`
+| Código | Nombre |
+|--------|--------|
+| HY | Hipólito Yrigoyen |
+| IN | Independencia |
+| SI | Sin sede / Virtual |
+| AV | Av. de Mayo |
+| EC | Echeverría |
 
-Replace `<OWNER>` and `<REPO>` with your GitHub org/user and repository name.
+## Entidades principales
 
-### Consuming from another app
+- **Materia** — Asignatura (programa, código, nombre)
+- **Catedra** — Cátedra/comisión (titular, materia)
+- **Section** — Sección de cursada: Teórico (`Teo`), Seminario (`Sem`), Práctico (`Prac`)
+- **Meet** — Encuentro individual (día 1–7, horario, aula, sede)
+- **Sede** — Campus físico
 
-- Fetch the JSON from the Pages URL(s) above. The files are static and cacheable by browsers and CDNs. If you need to force a refresh after updates, append a cache-busting query string like `?ts=1700000000`.
+## Notas
 
-### Notes
-
-- The deployment runs on every push to `main` and can also be triggered manually from the Actions tab. You can add a scheduled run if needed.
-- If you add a new term (e.g., `2026-1/`), commit it to the repo and push to `main` — it will be published automatically.
-
-
+- Los días van de `1` (lunes) a `7` (domingo). El campo `dayName` usa el texto del portal (e.g., `"miercoles"`, `"domingo"`).
+- La lógica de `requires` (qué Teo/Sem requiere cada Prac) se parsea del campo `oblig` del portal.
+- El campo `chairLabel` (`I`, `II`, etc.) solo se extrae cuando el portal lo formatea explícitamente como `LABEL - ...`.
