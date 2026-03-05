@@ -27,6 +27,7 @@ const dayOrder: Record<string, number> = {
   jueves: 4,
   viernes: 5,
   sabado: 6,
+  domingo: 7,
 };
 
 export function dayNameToNum(day: string): number {

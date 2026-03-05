@@ -69,8 +69,8 @@ export interface Meet {
   catedraId: number;
   tipo: "Teo" | "Sem" | "Prac";
   sectionLabel: string;
-  dayName: string; // lunes..sabado (as on site)
-  dayNum: number; // 1..6
+  dayName: string; // lunes..domingo (as on site)
+  dayNum: number; // 1..7
   start: string; // HH:MM
   end: string; // HH:MM
   startMin: number;
